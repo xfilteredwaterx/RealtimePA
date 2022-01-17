@@ -17,6 +17,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Floor White
+    second: {fileID: 2100000, guid: 227dda8af7f3d3e40a70e56f61285613, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Paper - Shoji Paper
     second: {fileID: 2100000, guid: 032bb2e06f241c54287eb6c77079a848, type: 2}
   - first:
@@ -78,7 +83,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic - Gurke Ramen
-    second: {fileID: 2100000, guid: 108e8910d259c5c4987914f2a2106d21, type: 2}
+    second: {fileID: 2100000, guid: da05f0cb0cb886b4ba8c3ee1f8847f36, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -94,6 +99,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Plastic - Gurke Sushi.1
     second: {fileID: 2100000, guid: 0f427c6a33a45dd49add6c875a7cf9e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic - Lauch
+    second: {fileID: 2100000, guid: 43e62205b264aa24fbb81351c0aeaf45, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
