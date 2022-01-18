@@ -27,23 +27,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Paper - Shoji Paper.1
+    second: {fileID: 2100000, guid: fa27cae99c0bd4046b26d1c0cd039691, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Paper - Shoji Wand
     second: {fileID: 2100000, guid: 1d80085363603e34991044ad051f16a4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Paper - Shoji Wand.1
-    second: {fileID: 2100000, guid: 2551f69d70bb09945b2d5c31cd6b1294, type: 2}
+    second: {fileID: 2100000, guid: 86549a8d50cf50c43b78f67055fa9389, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper - Shoji Wand.2
+    second: {fileID: 2100000, guid: 54a88a5ace169af4f80141735f928cd0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic - Black
-    second: {fileID: 2100000, guid: e0f80670e476a654596e954333e004fc, type: 2}
+    second: {fileID: 2100000, guid: 6c46ab6040ac020478c43799dbef37b5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic - Dark Brown Wood
-    second: {fileID: 2100000, guid: 129bcf432bdfdd24d96e2fec13aa06c9, type: 2}
+    second: {fileID: 2100000, guid: 20989c22fc4018446bae0d2c34083fa0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -58,7 +68,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic - Glass
-    second: {fileID: 2100000, guid: 2f3f491ea7f68654d8db6570400e2e9a, type: 2}
+    second: {fileID: 2100000, guid: 78d95287deb60e9478f2597d1812eaa6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -73,17 +83,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic - Grey
-    second: {fileID: 2100000, guid: 58b23520e19e1fa4db6869b42863cd70, type: 2}
+    second: {fileID: 2100000, guid: b4465e0b9f25a3f4e83c6452a4dfd296, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic - Grey Blue_
-    second: {fileID: 2100000, guid: 5c6f19d47f018444d8a2dea6b33bf58b, type: 2}
+    second: {fileID: 2100000, guid: a9fa4ff3637475c4bacbcc656dbefcc5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic - Gurke Ramen
-    second: {fileID: 2100000, guid: da05f0cb0cb886b4ba8c3ee1f8847f36, type: 2}
+    second: {fileID: 2100000, guid: 802481c8ba13e6b43a9f541d2850f26e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -108,12 +118,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic - Light Brown
-    second: {fileID: 2100000, guid: e7c26bf64b0b4394ca8ca86952f46e2f, type: 2}
+    second: {fileID: 2100000, guid: 7be93431bb1e6ad49b56db4d663395ac, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic - Light Brown Wood
-    second: {fileID: 2100000, guid: 81058914c4429f34692c075fa3c36376, type: 2}
+    second: {fileID: 2100000, guid: c7610a7569a22904091a13a1f257c42e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic - Light Brown Wood.2
+    second: {fileID: 2100000, guid: 62f8e2452ad553740ba7aea7724db792, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -173,7 +188,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic - Uzumaki
-    second: {fileID: 2100000, guid: fbedb3bc2ea5c29498e0691510095988, type: 2}
+    second: {fileID: 2100000, guid: 7bfdcd00fd91b324390767b223a30980, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -183,107 +198,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic - White Bottles
-    second: {fileID: 2100000, guid: fc079aaea62a5034b8848bd15b93c10c, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: 4252349
-    second: {fileID: 2800000, guid: 37c5a5872a1f9fa4abac73a9277713e4, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: 639
-    second: {fileID: 2800000, guid: 0a11c7d383a33f743a5463817f3008a5, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Bricks066_1K_Color
-    second: {fileID: 2800000, guid: 4c899d9e83217284c9564e2e2bab4482, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Bricks066_1K_NormalDX
-    second: {fileID: 2800000, guid: d50d35462ebaac14583c71699d968610, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Fabric035_1K_NormalDX
-    second: {fileID: 2800000, guid: 232936329be472144aaf467b4564e902, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Planks003_1K_Color
-    second: {fileID: 2800000, guid: 0809a14376aab654f83e38312cf7c160, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Planks003_1K_NormalDX
-    second: {fileID: 2800000, guid: 43121c9bc1608c24ea0c6fd3655fcfa6, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: WoodFloor043_1K_Color
-    second: {fileID: 2800000, guid: ef3252a1b3c93fc4ea46ba3c2248e804, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: WoodFloor043_1K_NormalDX
-    second: {fileID: 2800000, guid: 313f97ee53a164a4db331b5c04d2931d, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: food_0013_color_2k
-    second: {fileID: 2800000, guid: 53387f89dd20f4e4d8a826c8e0100229, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: food_0013_normal_2k
-    second: {fileID: 2800000, guid: 081e44cf5f59e5f4a8c62d0b7faa1de5, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: food_0015_color_1k
-    second: {fileID: 2800000, guid: 4338f2dcd72f423409781a6f95a9292e, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: food_0015_height_1k
-    second: {fileID: 2800000, guid: 0408199f25443874cbda35cfe3f884d1, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: food_0015_normal_1k
-    second: {fileID: 2800000, guid: 6803bb2cd8523fa4eaeeaa4cb8d96387, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: food_0016_color_1k
-    second: {fileID: 2800000, guid: 6886d1a119c411a49ab2c5d52be374fb, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: food_0016_normal_1k
-    second: {fileID: 2800000, guid: d37e30ed1d9ad4148bddee5de147fbfc, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: paper_0017_color_1k
-    second: {fileID: 2800000, guid: e542d152af31e5b46852b68b93cfa7a3, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: paper_0017_normal_1k
-    second: {fileID: 2800000, guid: 34a01807b87fc694bb4f0ebd35882a0d, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: wood_0033_color_1k
-    second: {fileID: 2800000, guid: fe54adaac37c5754d822652831f8b996, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: wood_0033_normal_1k
-    second: {fileID: 2800000, guid: a4eabc907a511aa4c82d9980cf3aed81, type: 3}
+    second: {fileID: 2100000, guid: 958bbd63d4e7d464eb7c5d907ce0938f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

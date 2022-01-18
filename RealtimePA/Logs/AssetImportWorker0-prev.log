@@ -15,11 +15,11 @@ D:/Uni/Realtime_Unity/Realtime_Projektarbeit/RealtimePA/RealtimePA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51447
+51607
 Successfully changed project path to: D:/Uni/Realtime_Unity/Realtime_Projektarbeit/RealtimePA/RealtimePA
 D:/Uni/Realtime_Unity/Realtime_Projektarbeit/RealtimePA/RealtimePA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 54.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002527 seconds.
+Registered in 0.002589 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 54.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.286 seconds
+- Completed reload, in  1.300 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1286ms)
+	ReloadAssembly (1300ms)
 		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (459ms)
+		EndReloadAssembly (467ms)
 			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
+			SetupTypeCache (161ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (193ms)
+			SetupLoadedEditorAssemblies (199ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003751 seconds.
+Registered in 0.003929 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.232 seconds
+- Completed reload, in  1.246 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1233ms)
-		BeginReloadAssembly (158ms)
+	ReloadAssembly (1247ms)
+		BeginReloadAssembly (164ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1001ms)
+		EndReloadAssembly (1010ms)
 			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (331ms)
+			SetupTypeCache (327ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (378ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (385ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (212ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (214ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2703 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.0 MB.
-System memory in use after: 125.1 MB.
+Unloading 2705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.8 MB.
+System memory in use after: 126.0 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3141.
-Total: 3.282200 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.070600 ms MarkObjects: 2.872600 ms  DeleteObjects: 0.073400 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3143.
+Total: 3.252400 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.071800 ms MarkObjects: 2.845000 ms  DeleteObjects: 0.070000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,33 +131,1769 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Textures/Sushi_Ramen_Modell/PSD/Gurken_Sushi.psd
-  artifactKey: Guid(3464c35426575fa4cade4e8ea248c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/PSD/Gurken_Sushi.psd using Guid(3464c35426575fa4cade4e8ea248c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaad27624d84a3a096cc31e3e9c72ed9') in 0.081478 seconds 
-  Import took 0.085273 seconds .
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Tür_02Ambient_Occlusion.png
+  artifactKey: Guid(bf01b6615bb1b9f4b8adbb8587ade642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Tür_02Ambient_Occlusion.png using Guid(bf01b6615bb1b9f4b8adbb8587ade642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06c7e3527bff92ba251e730abbb44c4') in 0.113311 seconds 
+  Import took 0.117115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.881849 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Plateau_AOAmbient_Occlusion 1.png
+  artifactKey: Guid(139d4ec0ab4ba9247a944b34c93f6c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Plateau_AOAmbient_Occlusion 1.png using Guid(139d4ec0ab4ba9247a944b34c93f6c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc56a6daea7315a63b8353e2d66aa65') in 0.014913 seconds 
+  Import took 0.018881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.682896 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Wand_AOAmbient_Occlusion.png
+  artifactKey: Guid(55c39b96f7a467049ba1f88897c83a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Wand_AOAmbient_Occlusion.png using Guid(55c39b96f7a467049ba1f88897c83a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90da3771235b8e44d17b94b3694ccd8') in 0.013946 seconds 
+  Import took 0.018709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 642.212919 seconds.
+  path: Assets/Shader/Paper.shadergraph
+  artifactKey: Guid(ecc16f9b83eb936458fd551eefb6cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Paper.shadergraph using Guid(ecc16f9b83eb936458fd551eefb6cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3ffb506563976edf03d5f60e8408f2') in 0.011898 seconds 
+  Import took 0.073633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.344110 seconds.
+  path: Assets/Shader/Paper.shadergraph
+  artifactKey: Guid(ecc16f9b83eb936458fd551eefb6cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Paper.shadergraph using Guid(ecc16f9b83eb936458fd551eefb6cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3ffb506563976edf03d5f60e8408f2') in 0.003957 seconds 
+  Import took 0.007962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.215777 seconds.
+  path: Assets/Shader/Plastik.shadergraph
+  artifactKey: Guid(28466bdbca7fbde4f817cbd0eeb6d763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Plastik.shadergraph using Guid(28466bdbca7fbde4f817cbd0eeb6d763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96026f0a3841cfca6b0bedd0698603d9') in 0.008778 seconds 
+  Import took 0.144286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.166597 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Grey.mat
+  artifactKey: Guid(58b23520e19e1fa4db6869b42863cd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Grey.mat using Guid(58b23520e19e1fa4db6869b42863cd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87af55caeb7482b3466a1976d20646c8') in 0.212038 seconds 
+  Import took 0.226581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002736 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Grey.mat
+  artifactKey: Guid(58b23520e19e1fa4db6869b42863cd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Grey.mat using Guid(58b23520e19e1fa4db6869b42863cd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87af55caeb7482b3466a1976d20646c8') in 0.016729 seconds 
+  Import took 0.020429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.448983 seconds.
+  path: Assets/Models/Sushi_Ramen_Modell.fbx
+  artifactKey: Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sushi_Ramen_Modell.fbx using Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9404e9bf8656f0a3d5f5cad23a81e7') in 0.523635 seconds 
+  Import took 0.543901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8512.447941 seconds.
+  path: Assets/Models/Sushi_Ramen_Modell.fbx
+  artifactKey: Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sushi_Ramen_Modell.fbx using Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34991bed5ef1423c3f94aa9840d28c2') in 0.516781 seconds 
+  Import took 0.620274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.869651 seconds.
+  path: Assets/Models/Sushi_Ramen_Modell.fbx
+  artifactKey: Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sushi_Ramen_Modell.fbx using Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7606aa4cef121ff5674cd29fa676eb3') in 0.390520 seconds 
+  Import took 0.401822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.336838 seconds.
+  path: Assets/Models/Sushi_Ramen_Modell.fbx
+  artifactKey: Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sushi_Ramen_Modell.fbx using Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b602109494a05aca647babc2c8e647') in 0.394660 seconds 
+  Import took 0.542927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1654.951309 seconds.
+  path: Assets/Models/Sushi_Ramen_Modell.fbx
+  artifactKey: Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sushi_Ramen_Modell.fbx using Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5dd00154a56d96f9a925ba2db1ffc9') in 0.408167 seconds 
+  Import took 0.416105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2499.343825 seconds.
+  path: Assets/Models/test.fbx
+  artifactKey: Guid(e056f6b7c71ac39418ae22dbe19770a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/test.fbx using Guid(e056f6b7c71ac39418ae22dbe19770a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1082637f51478fcfedac2e1ae55f042') in 0.040640 seconds 
+  Import took 0.055802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.148959 seconds.
+  path: Assets/Models/test.fbx
+  artifactKey: Guid(e056f6b7c71ac39418ae22dbe19770a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/test.fbx using Guid(e056f6b7c71ac39418ae22dbe19770a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9664b15e6e2404a6fee85a081900581') in 0.031187 seconds 
+  Import took 0.054862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.635890 seconds.
+  path: Assets/Models/test.fbx
+  artifactKey: Guid(e056f6b7c71ac39418ae22dbe19770a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/test.fbx using Guid(e056f6b7c71ac39418ae22dbe19770a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249cd1ecd497296e2228841f8a13558e') in 0.030793 seconds 
+  Import took 0.035348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.941416 seconds.
+  path: Assets/Models/test.fbx
+  artifactKey: Guid(e056f6b7c71ac39418ae22dbe19770a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/test.fbx using Guid(e056f6b7c71ac39418ae22dbe19770a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53e2397deaea5af09254e19a1ddfbe3') in 0.020390 seconds 
+  Import took 0.030712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.779413 seconds.
+  path: Assets/Models/test.fbx
+  artifactKey: Guid(e056f6b7c71ac39418ae22dbe19770a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/test.fbx using Guid(e056f6b7c71ac39418ae22dbe19770a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670b123eac05c895b1ac9e0fb12dd5a3') in 0.019590 seconds 
+  Import took 0.024088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.067854 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand.1.mat
+  artifactKey: Guid(86549a8d50cf50c43b78f67055fa9389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand.1.mat using Guid(86549a8d50cf50c43b78f67055fa9389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e312098198690dff0968a57b0aacbd41') in 0.014864 seconds 
+  Import took 0.031967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Glass.mat
+  artifactKey: Guid(2f3f491ea7f68654d8db6570400e2e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Glass.mat using Guid(2f3f491ea7f68654d8db6570400e2e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcc1a1587b35ef72cf5e5d01f0eea84') in 0.018857 seconds 
+  Import took 0.022634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Dark Brown_.mat
+  artifactKey: Guid(9c3d80a4f63d1e040a3c48d4aa81775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Dark Brown_.mat using Guid(9c3d80a4f63d1e040a3c48d4aa81775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5997dcb0bfbac98235c53fe3332491a') in 0.020148 seconds 
+  Import took 0.026561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood.2.mat
+  artifactKey: Guid(281b1f72af00eb34b9d818a0a97107f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood.2.mat using Guid(281b1f72af00eb34b9d818a0a97107f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20cc8429f18a39fe07909ef386a7143') in 0.015384 seconds 
+  Import took 0.019934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Gurke Ramen 1.mat
+  artifactKey: Guid(a6a4fc7d51e674a4e9096db0edfc8087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Gurke Ramen 1.mat using Guid(a6a4fc7d51e674a4e9096db0edfc8087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ada2253d29626ccd475c95c493eefa0') in 0.014609 seconds 
+  Import took 0.018970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown.mat
+  artifactKey: Guid(e7c26bf64b0b4394ca8ca86952f46e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown.mat using Guid(e7c26bf64b0b4394ca8ca86952f46e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7da1c809e142a8df00092765ee648c') in 0.014246 seconds 
+  Import took 0.027083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.789604 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Unused/Tür_01.mat
+  artifactKey: Guid(37b9f0cddb458474ea08370683593dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Unused/Tür_01.mat using Guid(37b9f0cddb458474ea08370683593dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec70cd6dbadd4e3d54692f57e623a69b') in 0.012619 seconds 
+  Import took 0.017233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Unused/Tür_01.mat
+  artifactKey: Guid(37b9f0cddb458474ea08370683593dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Unused/Tür_01.mat using Guid(37b9f0cddb458474ea08370683593dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec70cd6dbadd4e3d54692f57e623a69b') in 0.012453 seconds 
+  Import took 0.016076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.451246 seconds.
+  path: Assets/Models/test.fbx
+  artifactKey: Guid(e056f6b7c71ac39418ae22dbe19770a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/test.fbx using Guid(e056f6b7c71ac39418ae22dbe19770a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e26a840ab8f2a8a7f17421fc8f0afd8') in 0.021009 seconds 
+  Import took 0.149861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.468166 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/639.jpg
+  artifactKey: Guid(4c27bd764ad6d2f4d9a2f527badf473d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/639.jpg using Guid(4c27bd764ad6d2f4d9a2f527badf473d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08db1fe93460395c977b73a080ad889f') in 0.015935 seconds 
+  Import took 0.046584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/food_0015_normal_1k.png
+  artifactKey: Guid(0e2f05a05c2bd5a4ca8b78a8a95d1065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/food_0015_normal_1k.png using Guid(0e2f05a05c2bd5a4ca8b78a8a95d1065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dcc7b28ebe62a7b2ae5fe7c7a70e07') in 0.012942 seconds 
+  Import took 0.016635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/food_0013_color_2k.jpg
+  artifactKey: Guid(1816a9d74d617d040bd75108587403bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/food_0013_color_2k.jpg using Guid(1816a9d74d617d040bd75108587403bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbca746484429b3327099bc411552d33') in 0.013372 seconds 
+  Import took 0.264030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Planks003_1K_NormalDX.jpg
+  artifactKey: Guid(949cb64fe489c9e40a68e45ac0f45f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Planks003_1K_NormalDX.jpg using Guid(949cb64fe489c9e40a68e45ac0f45f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379ce8add1d638f9a199a81303170d06') in 0.014164 seconds 
+  Import took 0.020970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/food_0016_color_1k.jpg
+  artifactKey: Guid(bde281b2454b996418a8be90e6596a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/food_0016_color_1k.jpg using Guid(bde281b2454b996418a8be90e6596a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190dd5c09a95ca60896eb2eaa3195207') in 0.012356 seconds 
+  Import took 0.016077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Tür_01Surface_Color.tif
+  artifactKey: Guid(c3728641afa7d6e449602ab96b08008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Tür_01Surface_Color.tif using Guid(c3728641afa7d6e449602ab96b08008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89ac8433a5cb95864a4fcfd6db62375') in 0.019684 seconds 
+  Import took 0.024007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/food_0015_height_1k.png
+  artifactKey: Guid(4e97b668bd0093140bf94434a2cbcebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/food_0015_height_1k.png using Guid(4e97b668bd0093140bf94434a2cbcebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f792d4a3b49dde98053c72a8772573') in 0.013166 seconds 
+  Import took 0.017171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/paper_0017_color_1k.jpg
+  artifactKey: Guid(6c9e50130dee6af48a169bcd3bc6dc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/paper_0017_color_1k.jpg using Guid(6c9e50130dee6af48a169bcd3bc6dc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4820649be620220c51018b7b7b1ffd4a') in 0.011357 seconds 
+  Import took 0.020148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Bricks066_1K_NormalDX.jpg
+  artifactKey: Guid(629f3e92bb913194c9a81232ebf9c40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Bricks066_1K_NormalDX.jpg using Guid(629f3e92bb913194c9a81232ebf9c40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a313f846c6ebc7f1d0ae4421cf8e879b') in 0.013131 seconds 
+  Import took 0.017684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/food_0013_normal_2k.jpg
+  artifactKey: Guid(22e95dc0854965a428fd39de425201d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/food_0013_normal_2k.jpg using Guid(22e95dc0854965a428fd39de425201d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637bd310d2f611c37ff781993382494f') in 0.012382 seconds 
+  Import took 0.023549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Planks003_1K_Color.jpg
+  artifactKey: Guid(724d939999011464bbcef51336433304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Planks003_1K_Color.jpg using Guid(724d939999011464bbcef51336433304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a436d6b52a19e81a073401281f240c85') in 0.013612 seconds 
+  Import took 0.017812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/wood_0033_color_1k.jpg
+  artifactKey: Guid(e562d63430bd8c945a323c01058e0b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/wood_0033_color_1k.jpg using Guid(e562d63430bd8c945a323c01058e0b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0047c11140cb347acf2e59ce204dea') in 0.010499 seconds 
+  Import took 0.015279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/food_0015_color_1k.jpg
+  artifactKey: Guid(5e3717fbd06149441a7b63a20052405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/food_0015_color_1k.jpg using Guid(5e3717fbd06149441a7b63a20052405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c44c6a05666071b11d154731004b4b') in 0.012194 seconds 
+  Import took 0.016455 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000220 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/PSD/Meat_02.psd
-  artifactKey: Guid(874806cfad771c443986c77ca73a3bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/PSD/Meat_02.psd using Guid(874806cfad771c443986c77ca73a3bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acca0261e40aaa1c09dcfcead6ab70fc') in 0.019689 seconds 
-  Import took 0.035543 seconds .
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/WoodFloor043_1K_NormalDX.jpg
+  artifactKey: Guid(c92a6d1d6a8f3374b9ea4c58b097f499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/WoodFloor043_1K_NormalDX.jpg using Guid(c92a6d1d6a8f3374b9ea4c58b097f499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0c445cd1140b1c9fac47ce8fc1a31d') in 0.012923 seconds 
+  Import took 0.017087 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/PSD/Meat_01.psd
-  artifactKey: Guid(dc395dcf7b658d04994ef1293db888aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/PSD/Meat_01.psd using Guid(dc395dcf7b658d04994ef1293db888aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce44390a46e0c6685caa6b4df85e088') in 0.015819 seconds 
-  Import took 0.019708 seconds .
+  Time since last request: 0.000199 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/paper_0017_normal_1k.png
+  artifactKey: Guid(df882936584930e42b08cdd1fa3bcc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/paper_0017_normal_1k.png using Guid(df882936584930e42b08cdd1fa3bcc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e62c3e114bc46fb3253ed5cc3b59135') in 0.012464 seconds 
+  Import took 0.016875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/food_0016_normal_1k.png
+  artifactKey: Guid(281c859548c9f1f43b980b4724a796ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/food_0016_normal_1k.png using Guid(281c859548c9f1f43b980b4724a796ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8987fcb145f33ff41462508beedbbb46') in 0.012904 seconds 
+  Import took 0.017988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/wood_0033_normal_1k.png
+  artifactKey: Guid(dffa51ba83eb9ca4aa8354e4a694fbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/wood_0033_normal_1k.png using Guid(dffa51ba83eb9ca4aa8354e4a694fbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b22fffccf587be0affc04fc589b81a') in 0.011448 seconds 
+  Import took 0.015853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Bricks066_1K_Color.jpg
+  artifactKey: Guid(0ceb4bdbb8875514b946ae1dc5744ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Bricks066_1K_Color.jpg using Guid(0ceb4bdbb8875514b946ae1dc5744ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673ac10fc356358dcfce72eab2fc07a0') in 0.013848 seconds 
+  Import took 0.018265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Fabric035_1K_NormalDX.jpg
+  artifactKey: Guid(c60c228633166bc47b2b79db7dfad25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Fabric035_1K_NormalDX.jpg using Guid(c60c228633166bc47b2b79db7dfad25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150840bc5933fd859429e3eda37ef8ad') in 0.012686 seconds 
+  Import took 0.017937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/WoodFloor043_1K_Color.jpg
+  artifactKey: Guid(6037fda7adc4a0149982222370dd6abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/WoodFloor043_1K_Color.jpg using Guid(6037fda7adc4a0149982222370dd6abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa28dcea420bcdcc4d900795a92cf566') in 0.011437 seconds 
+  Import took 0.016137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/4252349.jpg
+  artifactKey: Guid(c34d9c107746334469f1dead2376865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/4252349.jpg using Guid(c34d9c107746334469f1dead2376865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36776da1445e1fa329274dabbfec1ece') in 0.011960 seconds 
+  Import took 0.016495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.309361 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Tür_01Ambient_Occlusion.tif
+  artifactKey: Guid(b44368bece3af774c9e9a3dea0a4074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Tür_01Ambient_Occlusion.tif using Guid(b44368bece3af774c9e9a3dea0a4074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f04b1f00030a6adba295439ac8027a') in 0.013883 seconds 
+  Import took 0.018850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1559.913904 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Sushi
+  artifactKey: Guid(d03bfc6017ce2314aaa46425b1748063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Sushi using Guid(d03bfc6017ce2314aaa46425b1748063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733f0a544e53320e1f68eb59c6add296') in 0.006648 seconds 
+  Import took 0.031436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.558968 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food
+  artifactKey: Guid(d03bfc6017ce2314aaa46425b1748063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food using Guid(d03bfc6017ce2314aaa46425b1748063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84adf2190bf33e2c0b8462adc07a1ff') in 0.006104 seconds 
+  Import took 0.010048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.661388 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Gurke Ramen 1.mat
+  artifactKey: Guid(a6a4fc7d51e674a4e9096db0edfc8087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Gurke Ramen 1.mat using Guid(a6a4fc7d51e674a4e9096db0edfc8087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739636d363a95a834b081d0a14f0cd93') in 0.013131 seconds 
+  Import took 0.031796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.122291 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Fabric
+  artifactKey: Guid(16447dd7d58599d4c9db4f4e5e16c22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Fabric using Guid(16447dd7d58599d4c9db4f4e5e16c22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa512586af2e177d90a528124b8e2f4') in 0.006267 seconds 
+  Import took 0.037337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.987307 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Tür_01.mat
+  artifactKey: Guid(032bb2e06f241c54287eb6c77079a848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Tür_01.mat using Guid(032bb2e06f241c54287eb6c77079a848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4945082603aba9ceae84f06331cd5611') in 0.016509 seconds 
+  Import took 0.020799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.763986 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Tür_02.mat
+  artifactKey: Guid(ccde6099e98ca0a4fac50ad113318fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Tür_02.mat using Guid(ccde6099e98ca0a4fac50ad113318fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f189610b234a8e91b9bb68644451bf9c') in 0.015045 seconds 
+  Import took 0.019688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.733170 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Türen
+  artifactKey: Guid(7fac52cccf7ba7246be31a059223b633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Türen using Guid(7fac52cccf7ba7246be31a059223b633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1526c7d07dde5b97dc24d7acb6c4c99f') in 0.006150 seconds 
+  Import took 0.010122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.954262 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand_Links.mat
+  artifactKey: Guid(86549a8d50cf50c43b78f67055fa9389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand_Links.mat using Guid(86549a8d50cf50c43b78f67055fa9389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41da02541a6aa9d03fbbec107d0af19d') in 0.015727 seconds 
+  Import took 0.020384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 269.762943 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Links
+  artifactKey: Guid(4298e49c3d2ae4c42834f81581c1b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Links using Guid(4298e49c3d2ae4c42834f81581c1b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380f9561a4803a81d9544830fb0af217') in 0.006512 seconds 
+  Import took 0.010681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.843116 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wand Links.mat
+  artifactKey: Guid(5a493bc2618de434da3e564625737776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wand Links.mat using Guid(5a493bc2618de434da3e564625737776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e46ee9c074a512041ed282aea39a32') in 0.015273 seconds 
+  Import took 0.019259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.714322 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Glass Wand Links.mat
+  artifactKey: Guid(0a4f4062323013b47903d1e1a9b22760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Glass Wand Links.mat using Guid(0a4f4062323013b47903d1e1a9b22760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4e186dbdda2f8e20f4bba6f8ebccd5') in 0.012805 seconds 
+  Import took 0.183769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.705734 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Dark Brown Wand Links.mat
+  artifactKey: Guid(57727780df212b64e88c64ecf21ecf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Dark Brown Wand Links.mat using Guid(57727780df212b64e88c64ecf21ecf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95889bb9f05ccbb38fa09bedfcdf73e5') in 0.018164 seconds 
+  Import took 0.034753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.230665 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Links/Paper - Shoji Wand Links.mat
+  artifactKey: Guid(86549a8d50cf50c43b78f67055fa9389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Links/Paper - Shoji Wand Links.mat using Guid(86549a8d50cf50c43b78f67055fa9389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9cef76d7f150b9272965e9b2d880a8') in 0.015519 seconds 
+  Import took 0.019819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.102704 seconds.
+  path: Assets/Models/Sushi_Ramen_Modell.fbx
+  artifactKey: Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sushi_Ramen_Modell.fbx using Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49d58a33518002be14d36498aa729ee') in 0.527013 seconds 
+  Import took 0.554545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.626202 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/639 1.jpg
+  artifactKey: Guid(585bef4a905bc9e448cd3a549715b494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/639 1.jpg using Guid(585bef4a905bc9e448cd3a549715b494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2e4fbaddbc0881017e9f96c622348e') in 0.011731 seconds 
+  Import took 0.030342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/wood_0033_color_1k 1.jpg
+  artifactKey: Guid(d03f9b93fd086d747ba2dd66eaf7fb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/wood_0033_color_1k 1.jpg using Guid(d03f9b93fd086d747ba2dd66eaf7fb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3edd540c4e6ede0777f16512f3076dd') in 0.011352 seconds 
+  Import took 0.044094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/WoodFloor043_1K_Color 1.jpg
+  artifactKey: Guid(42c7ef0e953d47b4fab7d24513cb26ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/WoodFloor043_1K_Color 1.jpg using Guid(42c7ef0e953d47b4fab7d24513cb26ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed789b1b77432f9fd20b9dc4e56845a7') in 0.013396 seconds 
+  Import took 0.017368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/paper_0017_color_1k 1.jpg
+  artifactKey: Guid(42bc3f11a41df4041994c7e98343f5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/paper_0017_color_1k 1.jpg using Guid(42bc3f11a41df4041994c7e98343f5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec014fb037c4ed9998a2b36dfa32bc5') in 0.011307 seconds 
+  Import took 0.054638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/food_0013_normal_2k 1.jpg
+  artifactKey: Guid(ef4ba41ec7b2bd54e914ff96419c401f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/food_0013_normal_2k 1.jpg using Guid(ef4ba41ec7b2bd54e914ff96419c401f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68c7211b5a640fafeb9bf407024f159') in 0.014307 seconds 
+  Import took 0.036553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/WoodFloor043_1K_NormalDX 1.jpg
+  artifactKey: Guid(5645ca451e01e7c48ab97dcadef9e574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/WoodFloor043_1K_NormalDX 1.jpg using Guid(5645ca451e01e7c48ab97dcadef9e574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30d38c0209213e5ae6841ade720beab') in 0.014905 seconds 
+  Import took 0.018843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/Planks003_1K_Color 1.jpg
+  artifactKey: Guid(b045544bdb818e247923747572c3bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/Planks003_1K_Color 1.jpg using Guid(b045544bdb818e247923747572c3bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6b316966187f500d432cf64b5953cc') in 0.011142 seconds 
+  Import took 0.023922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/Planks003_1K_NormalDX 1.jpg
+  artifactKey: Guid(6eacff73db30aff4ba18f60418a22e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/Planks003_1K_NormalDX 1.jpg using Guid(6eacff73db30aff4ba18f60418a22e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6500638ce05ddf2c88c44843a8780d4') in 0.011534 seconds 
+  Import took 0.015833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/wood_0033_normal_1k 1.png
+  artifactKey: Guid(2e8378800332e6d4e8f266058bfbd20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/wood_0033_normal_1k 1.png using Guid(2e8378800332e6d4e8f266058bfbd20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa8c153afe7f748a23a3ab3bd8bd87c') in 0.012330 seconds 
+  Import took 0.016245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/paper_0017_normal_1k 1.png
+  artifactKey: Guid(79533b4ffbba4e849bca35b90d064a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/paper_0017_normal_1k 1.png using Guid(79533b4ffbba4e849bca35b90d064a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e8ed94cb2d77a2b84e938864700692') in 0.011293 seconds 
+  Import took 0.018558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/food_0016_normal_1k 1.png
+  artifactKey: Guid(d7a93f2459498db44ace301283a27769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/food_0016_normal_1k 1.png using Guid(d7a93f2459498db44ace301283a27769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd085f2945d0fdd62735092f9acb75ff6') in 0.012526 seconds 
+  Import took 0.016702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/4252349 1.jpg
+  artifactKey: Guid(17564b1362364bc4288c2c58486d3de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/4252349 1.jpg using Guid(17564b1362364bc4288c2c58486d3de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099ace0bfe2cf08828157e331e11be68') in 0.011376 seconds 
+  Import took 0.015446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/Bricks066_1K_NormalDX 1.jpg
+  artifactKey: Guid(276854ec2e685ab48be2f6e54f408685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/Bricks066_1K_NormalDX 1.jpg using Guid(276854ec2e685ab48be2f6e54f408685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94741600c4078b6ce56b227315ca069b') in 0.011988 seconds 
+  Import took 0.019668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/food_0013_color_2k 1.jpg
+  artifactKey: Guid(2b18dc189ed45a84fb44b7f990a8b54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/food_0013_color_2k 1.jpg using Guid(2b18dc189ed45a84fb44b7f990a8b54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48cb8a3f2cb8b6f043bec0ff6ab3beb') in 0.013794 seconds 
+  Import took 0.017556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/Bricks066_1K_Color 1.jpg
+  artifactKey: Guid(d62769f91d5425045b91fabba88f3c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/Bricks066_1K_Color 1.jpg using Guid(d62769f91d5425045b91fabba88f3c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022013cd0aebde3fc2e9cfdb558bc851') in 0.013522 seconds 
+  Import took 0.024678 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000242 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/PSD/Gurke_Ramen.psd
-  artifactKey: Guid(0564257c2ca4dea458a7fbb047d176fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/PSD/Gurke_Ramen.psd using Guid(0564257c2ca4dea458a7fbb047d176fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a08b388c0ba38782900e6e146f022ac') in 0.011929 seconds 
-  Import took 0.015989 seconds .
+  path: Assets/Textures/Sushi_Ramen_Modell/food_0015_color_1k 1.jpg
+  artifactKey: Guid(faeb887dbc0fe7f4eba304280b75738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/food_0015_color_1k 1.jpg using Guid(faeb887dbc0fe7f4eba304280b75738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aea9a70e2d448159d01643825934235') in 0.011860 seconds 
+  Import took 0.016325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/food_0015_normal_1k 1.png
+  artifactKey: Guid(4cf1826521c35114aae837e2dfc7e36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/food_0015_normal_1k 1.png using Guid(4cf1826521c35114aae837e2dfc7e36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347269f91005ffeb421d50732098e2c9') in 0.012179 seconds 
+  Import took 0.025745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/food_0016_color_1k 1.jpg
+  artifactKey: Guid(9579b3ec14c046f4483d4bf7351be971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/food_0016_color_1k 1.jpg using Guid(9579b3ec14c046f4483d4bf7351be971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ffd88cf33e93fc2d057ed66467a2b8') in 0.012698 seconds 
+  Import took 0.016381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/food_0015_height_1k 1.png
+  artifactKey: Guid(4842f4087031d62499658deef7b8ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/food_0015_height_1k 1.png using Guid(4842f4087031d62499658deef7b8ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e548fffba523563d15c324e662680a88') in 0.013225 seconds 
+  Import took 0.040139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/Fabric035_1K_NormalDX 1.jpg
+  artifactKey: Guid(8340ce25082d51c41af66142bd3e68c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/Fabric035_1K_NormalDX 1.jpg using Guid(8340ce25082d51c41af66142bd3e68c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc8448d5cba99ee5f046ab7807c769c') in 0.014548 seconds 
+  Import took 0.018463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.064856 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Wand_LinksAmbient_Occlusion.png
+  artifactKey: Guid(517f0dde98135824883b4ba8aaf81e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Wand_LinksAmbient_Occlusion.png using Guid(517f0dde98135824883b4ba8aaf81e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880eb84d1c72e15b0f46508ea0705b90') in 0.014670 seconds 
+  Import took 0.028286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.362772 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand_Hinten
+  artifactKey: Guid(ab27b7e17a2a09b44b1e4380907ec3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand_Hinten using Guid(ab27b7e17a2a09b44b1e4380907ec3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf50a3d9cd7f03adab969115de6d5ce') in 0.006289 seconds 
+  Import took 0.010389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.068490 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Hinten
+  artifactKey: Guid(ab27b7e17a2a09b44b1e4380907ec3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Hinten using Guid(ab27b7e17a2a09b44b1e4380907ec3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecd646d4c9d3c8876605f0a98c881a9') in 0.007403 seconds 
+  Import took 0.011650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.401203 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wand Hinten.mat
+  artifactKey: Guid(ad85529e123fa344c807fb3eca8bbef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wand Hinten.mat using Guid(ad85529e123fa344c807fb3eca8bbef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287e7cbc1e4b32079099feae8812d54e') in 0.015534 seconds 
+  Import took 0.019785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.819393 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand Hinten.mat
+  artifactKey: Guid(1d80085363603e34991044ad051f16a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand Hinten.mat using Guid(1d80085363603e34991044ad051f16a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891b6e2a32ac6e96782d1cc0cedae86a') in 0.018845 seconds 
+  Import took 0.023065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.693564 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand 1.mat
+  artifactKey: Guid(3f41b3c56309d4044b39155da111d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand 1.mat using Guid(3f41b3c56309d4044b39155da111d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ef50a288aeae07f8850935222eb980') in 0.015721 seconds 
+  Import took 0.020396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.252826 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood 1.mat
+  artifactKey: Guid(7b7ebe4a1fde4894fa1ddaf8aa054000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood 1.mat using Guid(7b7ebe4a1fde4894fa1ddaf8aa054000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5452ab88fa4c6ac6e2598cab0d9001') in 0.017904 seconds 
+  Import took 0.022528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.621210 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood Wand Hinten.mat
+  artifactKey: Guid(7b7ebe4a1fde4894fa1ddaf8aa054000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood Wand Hinten.mat using Guid(7b7ebe4a1fde4894fa1ddaf8aa054000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa81746f84e46d4d83772c711b7c8c3a') in 0.018843 seconds 
+  Import took 0.022931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.100351 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Rechts
+  artifactKey: Guid(782faa418c7c8bd41acf713d50b0f4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Rechts using Guid(782faa418c7c8bd41acf713d50b0f4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab6d1644d83985a19f13487c4ff961c') in 0.006587 seconds 
+  Import took 0.028739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.287558 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Hinten 1
+  artifactKey: Guid(dca4cf58f56defe45801144153668272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Hinten 1 using Guid(dca4cf58f56defe45801144153668272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d55a2733aac62e50424b9688a9a62ed') in 0.006470 seconds 
+  Import took 0.010567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009129 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Hinten 1
+  artifactKey: Guid(dca4cf58f56defe45801144153668272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Hinten 1 using Guid(dca4cf58f56defe45801144153668272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d55a2733aac62e50424b9688a9a62ed') in 0.002299 seconds 
+  Import took 0.006373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.244415 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Rechts
+  artifactKey: Guid(dca4cf58f56defe45801144153668272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Rechts using Guid(dca4cf58f56defe45801144153668272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d7132edef0045da71e7a7c5a492288') in 0.002287 seconds 
+  Import took 0.021658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.704330 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Links/Paper - Shoji Wand Links.mat
+  artifactKey: Guid(86549a8d50cf50c43b78f67055fa9389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Links/Paper - Shoji Wand Links.mat using Guid(86549a8d50cf50c43b78f67055fa9389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7140016cfe9851a46c6d22d06c39eace') in 0.021395 seconds 
+  Import took 0.041875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Links/Plastic - Light Brown Wand Links.mat
+  artifactKey: Guid(5a493bc2618de434da3e564625737776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Links/Plastic - Light Brown Wand Links.mat using Guid(5a493bc2618de434da3e564625737776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f963822545ee6d89445650765a3b3824') in 0.019072 seconds 
+  Import took 0.038711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Links/Plastic - Glass Wand Links.mat
+  artifactKey: Guid(0a4f4062323013b47903d1e1a9b22760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Links/Plastic - Glass Wand Links.mat using Guid(0a4f4062323013b47903d1e1a9b22760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71b06e307b58cd279baa4ee67ce745f') in 0.014142 seconds 
+  Import took 0.028771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Links/Plastic - Dark Brown Wand Links.mat
+  artifactKey: Guid(57727780df212b64e88c64ecf21ecf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Links/Plastic - Dark Brown Wand Links.mat using Guid(57727780df212b64e88c64ecf21ecf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd12d2689849dc1aa9da9239669cd632') in 0.015467 seconds 
+  Import took 0.019507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000953 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Links/Plastic - Dark Brown Wand Links.mat
+  artifactKey: Guid(57727780df212b64e88c64ecf21ecf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Links/Plastic - Dark Brown Wand Links.mat using Guid(57727780df212b64e88c64ecf21ecf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd12d2689849dc1aa9da9239669cd632') in 0.016713 seconds 
+  Import took 0.020881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.416475 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Paper - Shoji Wand Hinten.mat
+  artifactKey: Guid(9bc6db7314b4a4744ae082b3333c406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Paper - Shoji Wand Hinten.mat using Guid(9bc6db7314b4a4744ae082b3333c406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644ac138e50a766a3b354eadbf7d51d0') in 0.014346 seconds 
+  Import took 0.018492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Plastic - Light Brown Wand Hinten.mat
+  artifactKey: Guid(701690303ff73a64688c9d0b1ad79d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Plastic - Light Brown Wand Hinten.mat using Guid(701690303ff73a64688c9d0b1ad79d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cc92a42c3e920f71e527b11c5e8d6b') in 0.018642 seconds 
+  Import took 0.022716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Plastic - Light Brown Wood Wand Hinten.mat
+  artifactKey: Guid(9c28f006eaf851d45ace3c659eefdd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Plastic - Light Brown Wood Wand Hinten.mat using Guid(9c28f006eaf851d45ace3c659eefdd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590b01993925c1cf482d4e23d5247f9e') in 0.017959 seconds 
+  Import took 0.038270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.733196 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Paper - Shoji Wand Rechts.mat
+  artifactKey: Guid(9bc6db7314b4a4744ae082b3333c406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Paper - Shoji Wand Rechts.mat using Guid(9bc6db7314b4a4744ae082b3333c406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b53e0c978bdcb00e9091264da3fb9f9') in 0.016779 seconds 
+  Import took 0.020996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.538100 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Plastic - Light Brown Wand Rechts.mat
+  artifactKey: Guid(701690303ff73a64688c9d0b1ad79d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Plastic - Light Brown Wand Rechts.mat using Guid(701690303ff73a64688c9d0b1ad79d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b1df3d360a365dffddd5ae46afaeda') in 0.014595 seconds 
+  Import took 0.071961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.121907 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Plastic - Light Brown Wood Wand Rechts.mat
+  artifactKey: Guid(9c28f006eaf851d45ace3c659eefdd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Plastic - Light Brown Wood Wand Rechts.mat using Guid(9c28f006eaf851d45ace3c659eefdd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95ff756f7ec5631d785285663b19f5d') in 0.017949 seconds 
+  Import took 0.022110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.289901 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Rechts 1
+  artifactKey: Guid(481c714efe9972246b7e6bcfdc8b2537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Rechts 1 using Guid(481c714efe9972246b7e6bcfdc8b2537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a61072db05e6463ae7457d71c6a354e') in 0.006077 seconds 
+  Import took 0.010053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.372112 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Oben
+  artifactKey: Guid(481c714efe9972246b7e6bcfdc8b2537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Oben using Guid(481c714efe9972246b7e6bcfdc8b2537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c030bc5502a0575e836828166ad73243') in 0.007255 seconds 
+  Import took 0.030800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.006297 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Plastic - Light Brown Wand Oben.mat
+  artifactKey: Guid(701690303ff73a64688c9d0b1ad79d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Rechts/Plastic - Light Brown Wand Oben.mat using Guid(701690303ff73a64688c9d0b1ad79d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d26028f0ad1945eecbc806ef49cd1c9') in 0.016820 seconds 
+  Import took 0.020986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.252482 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Links 1
+  artifactKey: Guid(e54657796171e264ca3b9fba8ed770fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Links 1 using Guid(e54657796171e264ca3b9fba8ed770fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401c2270c76a7545ce58736f5de5a238') in 0.006239 seconds 
+  Import took 0.010378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004509 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wand Links 1
+  artifactKey: Guid(e54657796171e264ca3b9fba8ed770fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wand Links 1 using Guid(e54657796171e264ca3b9fba8ed770fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401c2270c76a7545ce58736f5de5a238') in 0.002449 seconds 
+  Import took 0.006546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.942762 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Schaufenster
+  artifactKey: Guid(e54657796171e264ca3b9fba8ed770fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Schaufenster using Guid(e54657796171e264ca3b9fba8ed770fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb95614e8ee36bd093be029c9f7ebe4') in 0.007233 seconds 
+  Import took 0.036109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.688069 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Schaufenster/Paper - Shoji Wand Links.mat
+  artifactKey: Guid(ee014e825ae0f3c4c88e49089af5283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Schaufenster/Paper - Shoji Wand Links.mat using Guid(ee014e825ae0f3c4c88e49089af5283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5da932b84d1a2d509dcb446043d3dbc') in 0.015078 seconds 
+  Import took 0.019120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Schaufenster/Plastic - Light Brown Wand Links.mat
+  artifactKey: Guid(632bdf3cf6f22a849ab0287b3f50332f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Schaufenster/Plastic - Light Brown Wand Links.mat using Guid(632bdf3cf6f22a849ab0287b3f50332f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42054b15da7cbf48dd81384ba6012a14') in 0.015845 seconds 
+  Import took 0.020484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Schaufenster/Plastic - Glass Wand Links.mat
+  artifactKey: Guid(160c560e948858448a6bb6c56c2eae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Schaufenster/Plastic - Glass Wand Links.mat using Guid(160c560e948858448a6bb6c56c2eae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec629d22a6506ba26e0cef974a3c4f5') in 0.010199 seconds 
+  Import took 0.014277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Schaufenster/Plastic - Dark Brown Wand Links.mat
+  artifactKey: Guid(f70288654f5974c43a8d2df3a4a35a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Schaufenster/Plastic - Dark Brown Wand Links.mat using Guid(f70288654f5974c43a8d2df3a4a35a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38eaf9854839e52c816f8e7d77120f5') in 0.015751 seconds 
+  Import took 0.037426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.753828 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood Schaufenster.mat
+  artifactKey: Guid(6813adaceeea56a4aa330f63b0043737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood Schaufenster.mat using Guid(6813adaceeea56a4aa330f63b0043737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becba6f60ef29ed22bba58f613025935') in 0.017390 seconds 
+  Import took 0.021631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.856271 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand Rechts.mat
+  artifactKey: Guid(dca8c2bfbd20f3141b1ee58a6bbbb031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand Rechts.mat using Guid(dca8c2bfbd20f3141b1ee58a6bbbb031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a5843fe572fb4830d7342d22031e81') in 0.016188 seconds 
+  Import took 0.020523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.267322 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood Wand Rechts.mat
+  artifactKey: Guid(540ee17ac9439b140912512965a82e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood Wand Rechts.mat using Guid(540ee17ac9439b140912512965a82e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f06657782745714438845e3a61bdc2') in 0.016717 seconds 
+  Import took 0.021101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 683.043569 seconds.
+  path: Assets/Models/Sushi_Ramen_Modell.fbx
+  artifactKey: Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sushi_Ramen_Modell.fbx using Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d808fe9786c4e0daad91cb30987930') in 0.395790 seconds 
+  Import took 0.419259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.550519 seconds.
+  path: Assets/Models/Sushi_Ramen_Modell.fbx
+  artifactKey: Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sushi_Ramen_Modell.fbx using Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbf819b6429485d871c5f9aab81f18a') in 0.403403 seconds 
+  Import took 0.410693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.125581 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Paper.1.mat
+  artifactKey: Guid(24d43da178fea1343a7fafa56560a9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Paper.1.mat using Guid(24d43da178fea1343a7fafa56560a9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af26d8287e86fc70fc8d921f89c437f') in 0.014899 seconds 
+  Import took 0.019026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Gurke Ramen.mat
+  artifactKey: Guid(30cb746392ee6f241aeef9ba16acc712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Gurke Ramen.mat using Guid(30cb746392ee6f241aeef9ba16acc712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7e34ef8af706fdae870b9e94adb0bf') in 0.014811 seconds 
+  Import took 0.018777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood.2.mat
+  artifactKey: Guid(281b1f72af00eb34b9d818a0a97107f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood.2.mat using Guid(281b1f72af00eb34b9d818a0a97107f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b718994b7a361dd9d1b36fd335b822b') in 0.018738 seconds 
+  Import took 0.023184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand.2.mat
+  artifactKey: Guid(67d544fb44bffe643ba83b0c6a13b4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand.2.mat using Guid(67d544fb44bffe643ba83b0c6a13b4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e307bb2799be3b4ff7a236ef5d690ec6') in 0.014931 seconds 
+  Import took 0.019331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.294101 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Dark Brown Balken + Ablage.mat
+  artifactKey: Guid(6c39f1634f7360d48b26c802e6c58ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Dark Brown Balken + Ablage.mat using Guid(6c39f1634f7360d48b26c802e6c58ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7848b6a12c2537903d343167dc3ede45') in 0.014372 seconds 
+  Import took 0.018509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.257438 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen
+  artifactKey: Guid(472280c60d5039c4cad4cbe1681e55db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen using Guid(472280c60d5039c4cad4cbe1681e55db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d031bcf905703700224e0ba6bb3594') in 0.006650 seconds 
+  Import took 0.010636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004811 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen
+  artifactKey: Guid(472280c60d5039c4cad4cbe1681e55db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen using Guid(472280c60d5039c4cad4cbe1681e55db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d031bcf905703700224e0ba6bb3594') in 0.002349 seconds 
+  Import took 0.006544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.663298 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Innen
+  artifactKey: Guid(16447dd7d58599d4c9db4f4e5e16c22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Innen using Guid(16447dd7d58599d4c9db4f4e5e16c22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312f0ae5af3cfc98db857af05b385abd') in 0.006532 seconds 
+  Import took 0.010584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.563201 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Plastic - Light Brown 1.mat
+  artifactKey: Guid(c0c27bb1edf761a4297c41f019161566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Plastic - Light Brown 1.mat using Guid(c0c27bb1edf761a4297c41f019161566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19eac696c4d71972aaf91f3e575496a2') in 0.014497 seconds 
+  Import took 0.018800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.382612 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Plastic - Light Brown Tür_01.mat
+  artifactKey: Guid(c0c27bb1edf761a4297c41f019161566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Plastic - Light Brown Tür_01.mat using Guid(c0c27bb1edf761a4297c41f019161566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7938673247b0efa49bacb3e047000934') in 0.015059 seconds 
+  Import took 0.019042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.821599 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Türen/Plastic - Light Brown Tür_02.mat
+  artifactKey: Guid(18e3c4bead9b14f488ff4fbc51bf045b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Türen/Plastic - Light Brown Tür_02.mat using Guid(18e3c4bead9b14f488ff4fbc51bf045b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367313327f25ef8f308dfac6993409a7') in 0.014337 seconds 
+  Import took 0.018343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.918376 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Plastic - Dark Brown_ 1.mat
+  artifactKey: Guid(4d87d3762880aa44da10c8df448d850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Plastic - Dark Brown_ 1.mat using Guid(4d87d3762880aa44da10c8df448d850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f12817245670a1f1c02a4b72af29064') in 0.014588 seconds 
+  Import took 0.018653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.324832 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Wand_Offen.mat
+  artifactKey: Guid(4d87d3762880aa44da10c8df448d850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Wand_Offen.mat using Guid(4d87d3762880aa44da10c8df448d850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05546411c9b7d7a4e30dc0059261a803') in 0.013901 seconds 
+  Import took 0.018042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.119324 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Dach_Vordach.mat
+  artifactKey: Guid(a25340a97fc42d341b26c75f3a5d5606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Dach_Vordach.mat using Guid(a25340a97fc42d341b26c75f3a5d5606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2e1e92030f15beacbe2aeeb96bff8e') in 0.015479 seconds 
+  Import took 0.019925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.621205 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Paper.1.mat
+  artifactKey: Guid(24d43da178fea1343a7fafa56560a9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Paper.1.mat using Guid(24d43da178fea1343a7fafa56560a9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efc1be4ce24f8f6629717aefb64563c') in 0.011516 seconds 
+  Import took 0.015735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand.2.mat
+  artifactKey: Guid(67d544fb44bffe643ba83b0c6a13b4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Paper - Shoji Wand.2.mat using Guid(67d544fb44bffe643ba83b0c6a13b4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8493b832b358cf23e774df06370e8f56') in 0.014759 seconds 
+  Import took 0.120988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.180376 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Grey Blue Dachrillen.mat
+  artifactKey: Guid(0392388b736c847498cd9a76b78db0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Grey Blue Dachrillen.mat using Guid(0392388b736c847498cd9a76b78db0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ba775a7bd1f95b84f8efeab88d76b8') in 0.013647 seconds 
+  Import took 0.017831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.875633 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Fabric Outside - Grey Banner Cloth.mat
+  artifactKey: Guid(a3e98b08f5dac264097c5785828b2da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Fabric Outside - Grey Banner Cloth.mat using Guid(a3e98b08f5dac264097c5785828b2da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3770450d057323cb1af7eca5d9c03060') in 0.016058 seconds 
+  Import took 0.020186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.369073 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Plastic - Dark Brown Stange.mat
+  artifactKey: Guid(2233f8502da9bed49b6358900dc155d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Plastic - Dark Brown Stange.mat using Guid(2233f8502da9bed49b6358900dc155d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7091d42256ba10cba9d59f1a5b157aec') in 0.014421 seconds 
+  Import took 0.018829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.118366 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood.2.mat
+  artifactKey: Guid(281b1f72af00eb34b9d818a0a97107f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood.2.mat using Guid(281b1f72af00eb34b9d818a0a97107f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5e3379ece1ecc06a37a3e0effe21a1') in 0.015797 seconds 
+  Import took 0.020832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007705 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood.2.mat
+  artifactKey: Guid(281b1f72af00eb34b9d818a0a97107f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood.2.mat using Guid(281b1f72af00eb34b9d818a0a97107f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5e3379ece1ecc06a37a3e0effe21a1') in 0.017604 seconds 
+  Import took 0.022132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.820906 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - Dark Brown_ 1.mat
+  artifactKey: Guid(59ec012d4ac6237469cf578635539f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - Dark Brown_ 1.mat using Guid(59ec012d4ac6237469cf578635539f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb91d1c3c5667a895ef1de47a836132b') in 0.013657 seconds 
+  Import took 0.041179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.880656 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - Dark Brown Stühle.mat
+  artifactKey: Guid(59ec012d4ac6237469cf578635539f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - Dark Brown Stühle.mat using Guid(59ec012d4ac6237469cf578635539f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cd1eead19d5e10076032176f714568') in 0.014806 seconds 
+  Import took 0.018798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.949714 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Innen/Fabric Chair - Red Stühle.mat
+  artifactKey: Guid(bd569a80532aef642a55b04cb108e405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Innen/Fabric Chair - Red Stühle.mat using Guid(bd569a80532aef642a55b04cb108e405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f4dc5bce2b6cc6cfbc3c2438b7ed8c') in 0.014892 seconds 
+  Import took 0.018946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.018925 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - Dark Brown Theke.mat
+  artifactKey: Guid(b787d81376e29764780163ee809d255c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - Dark Brown Theke.mat using Guid(b787d81376e29764780163ee809d255c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5178e28a4d59ab4b14ad159307ee2e') in 0.016538 seconds 
+  Import took 0.020661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.583185 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - White Lampen.mat
+  artifactKey: Guid(102e083542e12bf44a53088245cfb768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - White Lampen.mat using Guid(102e083542e12bf44a53088245cfb768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa9dd9279273ea85e6fc02507ec1459') in 0.012360 seconds 
+  Import took 0.016633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.398463 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Dark Brown Regal.mat
+  artifactKey: Guid(925daa58d5f86364c9a0d868319f4767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Dark Brown Regal.mat using Guid(925daa58d5f86364c9a0d868319f4767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63f41ecf1858491ece12b9dfb3efa39') in 0.014958 seconds 
+  Import took 0.020307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.402113 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Schaufenster/Plastic - Dark Brown Vitrine.mat
+  artifactKey: Guid(6125baac5fa56084da479b9e29e5e2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Schaufenster/Plastic - Dark Brown Vitrine.mat using Guid(6125baac5fa56084da479b9e29e5e2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13df0d5624519e5637a62d33ad972825') in 0.015557 seconds 
+  Import took 0.031438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.031394 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - White Dekor Sushi.mat
+  artifactKey: Guid(05750f06bc55cf249a07e208055499f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - White Dekor Sushi.mat using Guid(05750f06bc55cf249a07e208055499f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5ec5fb61f44856deea2862d6de4734') in 0.013858 seconds 
+  Import took 0.022128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.517801 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - White 1.mat
+  artifactKey: Guid(3e1a3ce112eec7d4bae8716efec37712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - White 1.mat using Guid(3e1a3ce112eec7d4bae8716efec37712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4524ad73224e83f769a80118d5923502') in 0.012630 seconds 
+  Import took 0.017322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.506718 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - White Dekor Ramen.mat
+  artifactKey: Guid(238a1b2e3d3bd5b49a88df5af91457fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - White Dekor Ramen.mat using Guid(238a1b2e3d3bd5b49a88df5af91457fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8228082a54642239d659f0af08e58715') in 0.013056 seconds 
+  Import took 0.017411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.911855 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Chopstick.mat
+  artifactKey: Guid(9d6921009d0982c4d95e5f400dc7a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Chopstick.mat using Guid(9d6921009d0982c4d95e5f400dc7a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcd9bbabf5d1123af2b6dcfa29b8c1f') in 0.015440 seconds 
+  Import took 0.019456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.944052 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Black Chopstick Holder.mat
+  artifactKey: Guid(eeeb9b82c1351664da740406ca72624e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Black Chopstick Holder.mat using Guid(eeeb9b82c1351664da740406ca72624e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d028c7e4f540f83f63855e93b50e4f9') in 0.013795 seconds 
+  Import took 0.017902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.535343 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Grey Blue Glasses.mat
+  artifactKey: Guid(a4586b147f7a0e246aea08c521dc4c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Grey Blue Glasses.mat using Guid(a4586b147f7a0e246aea08c521dc4c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2675ac7ca855fe9dca9011acf9b88a1c') in 0.012764 seconds 
+  Import took 0.016822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.644323 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Black Lampe.mat
+  artifactKey: Guid(557a999ba55ed3341996bd855e327160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Black Lampe.mat using Guid(557a999ba55ed3341996bd855e327160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4ea1b3062acf582b3bb3b68017b835') in 0.012693 seconds 
+  Import took 0.017072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.288825 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Dark Brown Regal.mat
+  artifactKey: Guid(d59621a8209a97d4cb5192f48a58ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Dark Brown Regal.mat using Guid(d59621a8209a97d4cb5192f48a58ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576d27c0425dc8acb1e516b6b3fc5cf1') in 0.015063 seconds 
+  Import took 0.019486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.348203 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - White Lampe.mat
+  artifactKey: Guid(f9a29799a0c7ac44c94fc76b5eabae91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - White Lampe.mat using Guid(f9a29799a0c7ac44c94fc76b5eabae91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dc302b05d9568cc987081b430feb79') in 0.014429 seconds 
+  Import took 0.018639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.218922 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - White Bottles.mat
+  artifactKey: Guid(3e1a3ce112eec7d4bae8716efec37712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Innen/Plastic - White Bottles.mat using Guid(3e1a3ce112eec7d4bae8716efec37712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9aab83114d950f825d85ce349bba970') in 0.013062 seconds 
+  Import took 0.017256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.639769 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plateau
+  artifactKey: Guid(ba9f1c972f3562c4a904986c8aa9b746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plateau using Guid(ba9f1c972f3562c4a904986c8aa9b746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d13b78411381e05c01ef9210776207') in 0.006569 seconds 
+  Import took 0.011140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003128 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plateau
+  artifactKey: Guid(ba9f1c972f3562c4a904986c8aa9b746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plateau using Guid(ba9f1c972f3562c4a904986c8aa9b746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d13b78411381e05c01ef9210776207') in 0.002390 seconds 
+  Import took 0.006323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.694794 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plateau/Plastic - Dark Brown Plateau.mat
+  artifactKey: Guid(9c3d80a4f63d1e040a3c48d4aa81775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plateau/Plastic - Dark Brown Plateau.mat using Guid(9c3d80a4f63d1e040a3c48d4aa81775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f2743579af6f6f92d5f3eef8939ef9') in 0.015081 seconds 
+  Import took 0.019106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.205310 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Seaweed Sushi.mat
+  artifactKey: Guid(4a25f6f3361c1f840a6fe68e132a53e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Seaweed Sushi.mat using Guid(4a25f6f3361c1f840a6fe68e132a53e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e406f18a876a38f772ae72ce15a45f8') in 0.017686 seconds 
+  Import took 0.021755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.632113 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Seaweed Ramen.mat
+  artifactKey: Guid(30e9e39f0c232284badcda24857818ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Seaweed Ramen.mat using Guid(30e9e39f0c232284badcda24857818ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ef2f4ae068fb11aedd984bb0cfa566') in 0.013716 seconds 
+  Import took 0.017978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.628881 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Grey 1.mat
+  artifactKey: Guid(de736486e379b2f4ab904f2ae0bd35d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Grey 1.mat using Guid(de736486e379b2f4ab904f2ae0bd35d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37f509afb5732c2266510fe4af4e7e7') in 0.012758 seconds 
+  Import took 0.016793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.569247 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Grey Teller.mat
+  artifactKey: Guid(de736486e379b2f4ab904f2ae0bd35d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Grey Teller.mat using Guid(de736486e379b2f4ab904f2ae0bd35d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497e0d15e7d8dbf80088e2b57c323010') in 0.012686 seconds 
+  Import took 0.016785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.608962 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi
+  artifactKey: Guid(f895de4690d15c74e9ae502e14b400ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi using Guid(f895de4690d15c74e9ae502e14b400ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69dfbd7bb922b3d9ba8e8a587aec1764') in 0.006649 seconds 
+  Import took 0.010925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003577 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi
+  artifactKey: Guid(f895de4690d15c74e9ae502e14b400ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi using Guid(f895de4690d15c74e9ae502e14b400ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69dfbd7bb922b3d9ba8e8a587aec1764') in 0.002691 seconds 
+  Import took 0.006785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.671882 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - White Bottles 1.mat
+  artifactKey: Guid(ddaeec7a26fab0c45bd1c5f6e6926d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - White Bottles 1.mat using Guid(ddaeec7a26fab0c45bd1c5f6e6926d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1df8a32d3f6079a8f53b4aab56d328') in 0.014173 seconds 
+  Import took 0.018275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.355150 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Grey Blue_ 1.mat
+  artifactKey: Guid(fc18c2e96e9021945adde94ead7cc470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Grey Blue_ 1.mat using Guid(fc18c2e96e9021945adde94ead7cc470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fed54adaebfb33394d0039c771a521') in 0.012809 seconds 
+  Import took 0.037795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Light Brown 1.mat
+  artifactKey: Guid(99f435cf137de87479707ad77136bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Light Brown 1.mat using Guid(99f435cf137de87479707ad77136bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d938daef834dc6c20c0525d71a9ceb') in 0.019716 seconds 
+  Import took 0.023273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Light Brown 1.mat
+  artifactKey: Guid(99f435cf137de87479707ad77136bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Light Brown 1.mat using Guid(99f435cf137de87479707ad77136bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d938daef834dc6c20c0525d71a9ceb') in 0.015636 seconds 
+  Import took 0.019791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.439306 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Grey Blue Dekor Sushi.mat
+  artifactKey: Guid(fc18c2e96e9021945adde94ead7cc470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Grey Blue Dekor Sushi.mat using Guid(fc18c2e96e9021945adde94ead7cc470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d5cf28f6ea0fa6ba29598729de9978') in 0.015011 seconds 
+  Import took 0.019601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.079742 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Light Brown Dekor Sushi.mat
+  artifactKey: Guid(99f435cf137de87479707ad77136bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Light Brown Dekor Sushi.mat using Guid(99f435cf137de87479707ad77136bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68fa27e58a09a11e0698313379734ee') in 0.014185 seconds 
+  Import took 0.018217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.236562 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - White Bottles Dekor Sushi.mat
+  artifactKey: Guid(ddaeec7a26fab0c45bd1c5f6e6926d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - White Bottles Dekor Sushi.mat using Guid(ddaeec7a26fab0c45bd1c5f6e6926d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f1963f172c57d10cf58da8d552c101') in 0.015067 seconds 
+  Import took 0.019150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.154338 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Ei Sushi.mat
+  artifactKey: Guid(7112faa8765ac6f47838ae97c802df14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Ei Sushi.mat using Guid(7112faa8765ac6f47838ae97c802df14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c76029ec5b0935178d5e71c4a32cea5') in 0.013596 seconds 
+  Import took 0.017644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.336490 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Ei Ramen.mat
+  artifactKey: Guid(53ff3ac234fb3744389a2a651dac4e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Ei Ramen.mat using Guid(53ff3ac234fb3744389a2a651dac4e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c63539d7af1c6b123c8ee70c599f272') in 0.013654 seconds 
+  Import took 0.017943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.075570 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Pictures 1.mat
+  artifactKey: Guid(2575631ef398ed04282e491bd3c73cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Pictures 1.mat using Guid(2575631ef398ed04282e491bd3c73cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a6f6e523e00e84cb4d89806a4a0029') in 0.012082 seconds 
+  Import took 0.032340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.919197 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Ei.mat
+  artifactKey: Guid(2575631ef398ed04282e491bd3c73cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Ei.mat using Guid(2575631ef398ed04282e491bd3c73cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd695a9776292fa71357ebf7ad6fe1d7') in 0.012712 seconds 
+  Import took 0.017175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.238638 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi 1
+  artifactKey: Guid(56cc48d4be134d649aefb511b4400f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi 1 using Guid(56cc48d4be134d649aefb511b4400f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351a38fd4998a0fb5d26a1cfe28c3f63') in 0.024106 seconds 
+  Import took 0.034161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.679314 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen
+  artifactKey: Guid(56cc48d4be134d649aefb511b4400f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen using Guid(56cc48d4be134d649aefb511b4400f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d43929607c951d35dad09ffe5b7d7b') in 0.006415 seconds 
+  Import took 0.010396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.462106 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Grey Blue Dekor Ramen.mat
+  artifactKey: Guid(fc18c2e96e9021945adde94ead7cc470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Grey Blue Dekor Ramen.mat using Guid(fc18c2e96e9021945adde94ead7cc470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3942e3005caa8757afbef6d92a8a1722') in 0.012417 seconds 
+  Import took 0.016694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.032749 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Light Brown Dekor Ramen.mat
+  artifactKey: Guid(99f435cf137de87479707ad77136bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - Light Brown Dekor Ramen.mat using Guid(99f435cf137de87479707ad77136bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cccd8bd1389fba7d95f1045cdef2241') in 0.015775 seconds 
+  Import took 0.020377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.474451 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - White Bottles Dekor Ramen.mat
+  artifactKey: Guid(ddaeec7a26fab0c45bd1c5f6e6926d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Sushi/Plastic - White Bottles Dekor Ramen.mat using Guid(ddaeec7a26fab0c45bd1c5f6e6926d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab19f5c8a2d5f8f40eaf83e04a2ce311') in 0.014809 seconds 
+  Import took 0.019333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.512944 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - Black 1.mat
+  artifactKey: Guid(b374743c754cae74196edf3c492955d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - Black 1.mat using Guid(b374743c754cae74196edf3c492955d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc92812ede121d5b1bcfcc69d208e278') in 0.012573 seconds 
+  Import took 0.016752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - Grey Blue Dekor Sushi.mat
+  artifactKey: Guid(8706eb30718609b40bc5c6dde83dfa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - Grey Blue Dekor Sushi.mat using Guid(8706eb30718609b40bc5c6dde83dfa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2454e7b339464ee6ddd53235e068ea') in 0.017273 seconds 
+  Import took 0.021094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - White Bottles Dekor Sushi.mat
+  artifactKey: Guid(e680aa63906d73b47a68e4ea5538d40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - White Bottles Dekor Sushi.mat using Guid(e680aa63906d73b47a68e4ea5538d40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1258bc57d748178b8b06af25c2e14e') in 0.014476 seconds 
+  Import took 0.018734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - Grey Blue Dekor Sushi.mat
+  artifactKey: Guid(8706eb30718609b40bc5c6dde83dfa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - Grey Blue Dekor Sushi.mat using Guid(8706eb30718609b40bc5c6dde83dfa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2454e7b339464ee6ddd53235e068ea') in 0.013830 seconds 
+  Import took 0.018239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - Light Brown Dekor Sushi.mat
+  artifactKey: Guid(7a7d8caf6d6ebc04b9205b1de0084c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - Light Brown Dekor Sushi.mat using Guid(7a7d8caf6d6ebc04b9205b1de0084c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f3b1011b75760a3534c30cd7a1e542') in 0.014460 seconds 
+  Import took 0.018521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.157739 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - Black Schüssel.mat
+  artifactKey: Guid(b374743c754cae74196edf3c492955d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - Black Schüssel.mat using Guid(b374743c754cae74196edf3c492955d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fed6a9c738e07b139bb8df8272df1c') in 0.014454 seconds 
+  Import took 0.018570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.841113 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Dark Brown Balken + Ablage 1.mat
+  artifactKey: Guid(5aa3d3dec99f9fa48afe61f8de09cf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Dark Brown Balken + Ablage 1.mat using Guid(5aa3d3dec99f9fa48afe61f8de09cf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba722037830651cbbec4dbe2280e0f57') in 0.013769 seconds 
+  Import took 0.034867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.670625 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Dark Brown Meat 01.mat
+  artifactKey: Guid(5aa3d3dec99f9fa48afe61f8de09cf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Dark Brown Meat 01.mat using Guid(5aa3d3dec99f9fa48afe61f8de09cf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc86325aba431e491a6b15258947890') in 0.013996 seconds 
+  Import took 0.036719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.346106 seconds.
+  path: Assets/Models/Sushi_Ramen_Modell.fbx
+  artifactKey: Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sushi_Ramen_Modell.fbx using Guid(6de96d8d761bc9e41abb79965a8e1e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c0c6d6706bf5dc730e34466a5d0188') in 0.390768 seconds 
+  Import took 0.397809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.340016 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Black Schüssel 1.mat
+  artifactKey: Guid(ecadc457ec9ee474fad7e93f6526d4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Black Schüssel 1.mat using Guid(ecadc457ec9ee474fad7e93f6526d4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1868ecc9c02f335caf01d1133018217a') in 0.012821 seconds 
+  Import took 0.016917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Dark Brown Meat 02.mat
+  artifactKey: Guid(9f8838a3409081c48acc1f1cfebaea8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Dark Brown Meat 02.mat using Guid(9f8838a3409081c48acc1f1cfebaea8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a289633ddeb981143bc276e348b636') in 0.015295 seconds 
+  Import took 0.019171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.185541 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Black Schüssel.mat
+  artifactKey: Guid(ecadc457ec9ee474fad7e93f6526d4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Plastic - Black Schüssel.mat using Guid(ecadc457ec9ee474fad7e93f6526d4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ab9444e5d9c48bcc8c04f6dd5d221d') in 0.008665 seconds 
+  Import took 0.012710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.437944 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - Black Dekor Schüssel.mat
+  artifactKey: Guid(b374743c754cae74196edf3c492955d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Food/Dekor_Ramen/Plastic - Black Dekor Schüssel.mat using Guid(b374743c754cae74196edf3c492955d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44db3142fa7788985377b7c00c97518e') in 0.014079 seconds 
+  Import took 0.018143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 266.655775 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/TürAmbient_Occlusion.png
+  artifactKey: Guid(84d3caa83732d3347944de4c673ca7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/TürAmbient_Occlusion.png using Guid(84d3caa83732d3347944de4c673ca7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db23d28764bb1590d4a57647baa493f') in 0.013686 seconds 
+  Import took 0.038942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.031422 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/DachrillenAmbient_Occlusion.png
+  artifactKey: Guid(1ba3ca653f080994cbad21ca03e4f53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/DachrillenAmbient_Occlusion.png using Guid(1ba3ca653f080994cbad21ca03e4f53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc967cab713e60d587932bb913349aee') in 0.013117 seconds 
+  Import took 0.017337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.322765 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/TürAmbient_Occlusion.png
+  artifactKey: Guid(84d3caa83732d3347944de4c673ca7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/TürAmbient_Occlusion.png using Guid(84d3caa83732d3347944de4c673ca7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9c0a57e23f730734e44a4abc67d292') in 0.011404 seconds 
+  Import took 0.021328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001572 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/TürAmbient_Occlusion.png
+  artifactKey: Guid(84d3caa83732d3347944de4c673ca7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/TürAmbient_Occlusion.png using Guid(84d3caa83732d3347944de4c673ca7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9c0a57e23f730734e44a4abc67d292') in 0.013510 seconds 
+  Import took 0.017640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.420535 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/LampenAmbient_Occlusion.png
+  artifactKey: Guid(db9484a2984d1b347b145ef80c5fcbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/LampenAmbient_Occlusion.png using Guid(db9484a2984d1b347b145ef80c5fcbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192797c96d9ff51f2338f0f6e8521138') in 0.012590 seconds 
+  Import took 0.017615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.827929 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/RegalAmbient_Occlusion.png
+  artifactKey: Guid(c9b78b40812be3c4da475c0e3a274e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/RegalAmbient_Occlusion.png using Guid(c9b78b40812be3c4da475c0e3a274e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e445c44c152f897e3493dbb78dffef') in 0.012159 seconds 
+  Import took 0.016322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.284158 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/SchaufensterAmbient_Occlusion.png
+  artifactKey: Guid(416769aecda2b6e4080af196859a56e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/SchaufensterAmbient_Occlusion.png using Guid(416769aecda2b6e4080af196859a56e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373c77c071218c74979cfde9d87dfa83') in 0.014644 seconds 
+  Import took 0.018921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 373.275100 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood Wand Hinten 1.mat
+  artifactKey: Guid(95cec27fa4381ed44917e23fbdbd3070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Plastic - Light Brown Wood Wand Hinten 1.mat using Guid(95cec27fa4381ed44917e23fbdbd3070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1588e6266c6ee7856eeae04fc2697868') in 0.016695 seconds 
+  Import took 0.020827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.005314 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Wood Floor.mat
+  artifactKey: Guid(95cec27fa4381ed44917e23fbdbd3070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Wood Floor.mat using Guid(95cec27fa4381ed44917e23fbdbd3070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114bf1ce0a568fc2a0dcc25489de2005') in 0.015725 seconds 
+  Import took 0.020939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.587395 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Wand_HintenAmbient_Occlusion.png
+  artifactKey: Guid(11c713cd0a8b049488d9336ae09cb012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Wand_HintenAmbient_Occlusion.png using Guid(11c713cd0a8b049488d9336ae09cb012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86fef7c783cd4b8a3ce4a70e2d38e87') in 0.012780 seconds 
+  Import took 0.017121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005941 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Wand_HintenAmbient_Occlusion.png
+  artifactKey: Guid(11c713cd0a8b049488d9336ae09cb012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Wand_HintenAmbient_Occlusion.png using Guid(11c713cd0a8b049488d9336ae09cb012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86fef7c783cd4b8a3ce4a70e2d38e87') in 0.010009 seconds 
+  Import took 0.014243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.354785 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Wand_ObenAmbient_Occlusion.png
+  artifactKey: Guid(4ec9de708ead68145829fa7397b51c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Wand_ObenAmbient_Occlusion.png using Guid(4ec9de708ead68145829fa7397b51c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4f1a7103981cdfe9ed5e1722c9cc4f') in 0.012596 seconds 
+  Import took 0.016948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.003806 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/Wand_RechtsAmbient_Occlusion.png
+  artifactKey: Guid(4115675aba8c9d945a7627317d90d5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Wand_RechtsAmbient_Occlusion.png using Guid(4115675aba8c9d945a7627317d90d5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f467c81349643418d120c4897a71ab02') in 0.013486 seconds 
+  Import took 0.017692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 235.630958 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/StangeAmbient_Occlusion.png
+  artifactKey: Guid(442ec75c46ae6c04e848d98bc8e4f637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/StangeAmbient_Occlusion.png using Guid(442ec75c46ae6c04e848d98bc8e4f637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf247851731a2d36dc907b58757690d4') in 0.012730 seconds 
+  Import took 0.016983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.145843 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/ClothAmbient_Occlusion.png
+  artifactKey: Guid(18a3bd413ef2975479a884e969da4bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/ClothAmbient_Occlusion.png using Guid(18a3bd413ef2975479a884e969da4bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3b05fddbfbc95fa8be90ae769eda1d') in 0.017659 seconds 
+  Import took 0.021894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.823120 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/BalkenAblageAmbient_Occlusion.png
+  artifactKey: Guid(e489ccc0d07336946896d7a997bd3fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/BalkenAblageAmbient_Occlusion.png using Guid(e489ccc0d07336946896d7a997bd3fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ee55eba2a32a1bb1466ceec511fc5e') in 0.011601 seconds 
+  Import took 0.015813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.256816 seconds.
+  path: Assets/Textures/Sushi_Ramen_Modell/AO/DachVordachAmbient_Occlusion.png
+  artifactKey: Guid(f70c2a688b7e37545b12e99baf4d7b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sushi_Ramen_Modell/AO/DachVordachAmbient_Occlusion.png using Guid(f70c2a688b7e37545b12e99baf4d7b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2dfa6b0aed85838dbd13b55164c3d2') in 0.012348 seconds 
+  Import took 0.017145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3269.672676 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Rechts/Paper - Shoji Wand Rechts.mat
+  artifactKey: Guid(dca8c2bfbd20f3141b1ee58a6bbbb031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Rechts/Paper - Shoji Wand Rechts.mat using Guid(dca8c2bfbd20f3141b1ee58a6bbbb031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57eb63f714125448ee1e781d2f8392ba') in 0.051944 seconds 
+  Import took 0.056352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Rechts/Plastic - Light Brown Wood Wand Rechts.mat
+  artifactKey: Guid(540ee17ac9439b140912512965a82e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Rechts/Plastic - Light Brown Wood Wand Rechts.mat using Guid(540ee17ac9439b140912512965a82e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca74a4d841f5d322b446395568a0081') in 0.033764 seconds 
+  Import took 0.037747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.902000 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Rechts/Plastic - Light Brown Wand Rechts.mat
+  artifactKey: Guid(701690303ff73a64688c9d0b1ad79d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Rechts/Plastic - Light Brown Wand Rechts.mat using Guid(701690303ff73a64688c9d0b1ad79d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5e3dd3c2a6f1a8b82867bfb36905f5') in 0.038695 seconds 
+  Import took 0.042805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.557628 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Oben/Paper - Shoji Wand Rechts.mat
+  artifactKey: Guid(ad614f65955c5684d8bed6787cc2bce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Oben/Paper - Shoji Wand Rechts.mat using Guid(ad614f65955c5684d8bed6787cc2bce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca24dbc5717a9bfdfa69626ca715e27') in 0.022575 seconds 
+  Import took 0.026676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Oben/Plastic - Light Brown Wood Wand Rechts.mat
+  artifactKey: Guid(1072e5d7c919a6d41869387c15d1fc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Oben/Plastic - Light Brown Wood Wand Rechts.mat using Guid(1072e5d7c919a6d41869387c15d1fc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1313c324a59b8321c1916883c0d8343') in 0.019379 seconds 
+  Import took 0.023620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Oben/Plastic - Light Brown Wand Rechts.mat
+  artifactKey: Guid(5211d844b8009784c936978649bdb070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Oben/Plastic - Light Brown Wand Rechts.mat using Guid(5211d844b8009784c936978649bdb070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9691de5b3ad5b271fd23818bf7d477') in 0.015870 seconds 
+  Import took 0.020079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.291151 seconds.
+  path: Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Oben/Plastic - Light Brown Wand Oben.mat
+  artifactKey: Guid(5211d844b8009784c936978649bdb070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sushi_Ramen_Modell/Außen/Wand Oben/Plastic - Light Brown Wand Oben.mat using Guid(5211d844b8009784c936978649bdb070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78951473241e62a5d29b37fa133e171') in 0.024272 seconds 
+  Import took 0.028420 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
