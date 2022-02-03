@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: aa0dccbe8eb34c74a9d012041b8f6ddd
+guid: dc559c6def883f64db8d3313d8fa7496
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4691226207166992365
-    second: MoebelShape_0
+      213: -7833985835544057122
+    second: StyleChairTable_0
   - first:
-      213: -1483938685246318006
-    second: MoebelShape_1
+      213: 8024477640328985475
+    second: StyleChairTable_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MoebelShape_0
+      name: StyleChairTable_0
       rect:
         serializedVersion: 2
         x: 0
@@ -135,14 +135,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: def013751659a1140800000000000000
-      internalID: 4691226207166992365
+      spriteID: eda64f88367184390800000000000000
+      internalID: -7833985835544057122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MoebelShape_1
+      name: StyleChairTable_1
       rect:
         serializedVersion: 2
         x: 100
@@ -156,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4ade65c0adf76be0800000000000000
-      internalID: -1483938685246318006
+      spriteID: 38bbfdbf5ebac5f60800000000000000
+      internalID: 8024477640328985475
       vertices: []
       indices: 
       edges: []
@@ -165,7 +165,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d54b683407074c94db232ddb778259f5
+    spriteID: 7bef4ecab225b074391aeaebef3dfa52
     internalID: 0
     vertices: []
     indices: 

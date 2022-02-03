@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: 90e5904d8a24b044fa433e36e3352739
+guid: 55cea32a8518880408ae08203196949c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1773774963644332829
-    second: FoodStyle_0
+      213: 3776303952797501551
+    second: "DoorStyle300x100_Zeichenfl\xE4che 1_0"
   - first:
-      213: -5879558691871177617
-    second: FoodStyle_1
+      213: -3356106667306729394
+    second: "DoorStyle300x100_Zeichenfl\xE4che 1_1"
   - first:
-      213: 92946517929025713
-    second: FoodStyle_2
-  - first:
-      213: -388508668809004019
-    second: FoodStyle_3
-  - first:
-      213: 2988561234967322335
-    second: FoodStyle_4
+      213: 2967879174468536626
+    second: "DoorStyle300x100_Zeichenfl\xE4che 1_2"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,7 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FoodStyle_0
+      name: "DoorStyle300x100_Zeichenfl\xE4che 1_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -144,14 +138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e48f7481194267e0800000000000000
-      internalID: -1773774963644332829
+      spriteID: f680666ff60286430800000000000000
+      internalID: 3776303952797501551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FoodStyle_1
+      name: "DoorStyle300x100_Zeichenfl\xE4che 1_1"
       rect:
         serializedVersion: 2
         x: 100
@@ -165,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6445fe558c976ea0800000000000000
-      internalID: -5879558691871177617
+      spriteID: e40ccda74c6bc61d0800000000000000
+      internalID: -3356106667306729394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FoodStyle_2
+      name: "DoorStyle300x100_Zeichenfl\xE4che 1_2"
       rect:
         serializedVersion: 2
         x: 200
@@ -186,50 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b0e4489d563a4100800000000000000
-      internalID: 92946517929025713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FoodStyle_3
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0cba739c6dbb9af0800000000000000
-      internalID: -388508668809004019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FoodStyle_4
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdedabfeb90897920800000000000000
-      internalID: 2988561234967322335
+      spriteID: 2390a7a7266003920800000000000000
+      internalID: 2967879174468536626
       vertices: []
       indices: 
       edges: []
@@ -237,7 +189,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: beeb9282b4d524142accc860a8e7ab71
+    spriteID: 249abb9bc2918384ab0f8b30810c7a96
     internalID: 0
     vertices: []
     indices: 

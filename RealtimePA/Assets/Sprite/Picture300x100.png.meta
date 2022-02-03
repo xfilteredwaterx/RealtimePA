@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 0ff47386b58d13444b2346b509bd23ad
+guid: 354c3370c0f19a24a82c7da3bb33c36a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4433191208042277864
-    second: TuerStyle_0
+      213: 9211628463525315755
+    second: "Picture300x100_Zeichenfl\xE4che 1_0"
   - first:
-      213: -7157465774699379382
-    second: TuerStyle_1
+      213: 5114417168756061180
+    second: "Picture300x100_Zeichenfl\xE4che 1_1"
   - first:
-      213: 2682982518854324864
-    second: TuerStyle_2
+      213: 1111430629039978940
+    second: "Picture300x100_Zeichenfl\xE4che 1_2"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,7 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TuerStyle_0
+      name: "Picture300x100_Zeichenfl\xE4che 1_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -138,14 +138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ebaeb86aebd58d30800000000000000
-      internalID: 4433191208042277864
+      spriteID: ba4cd43484746df70800000000000000
+      internalID: 9211628463525315755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TuerStyle_1
+      name: "Picture300x100_Zeichenfl\xE4che 1_1"
       rect:
         serializedVersion: 2
         x: 100
@@ -159,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a45070fbcc29bac90800000000000000
-      internalID: -7157465774699379382
+      spriteID: cf33dd0515f0af640800000000000000
+      internalID: 5114417168756061180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TuerStyle_2
+      name: "Picture300x100_Zeichenfl\xE4che 1_2"
       rect:
         serializedVersion: 2
         x: 200
@@ -180,8 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08215e6c26edb3520800000000000000
-      internalID: 2682982518854324864
+      spriteID: cb9ba6cb4489c6f00800000000000000
+      internalID: 1111430629039978940
       vertices: []
       indices: 
       edges: []
@@ -189,7 +189,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4c1b35dc4bc62bf4299add1eb2a1157e
+    spriteID: 3cd4daf861f5d3542b52696021eb819f
     internalID: 0
     vertices: []
     indices: 
