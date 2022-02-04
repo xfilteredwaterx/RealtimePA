@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 /// Steuert die Anzeige der einzelnen Menüs zum Konfigurieren
@@ -17,9 +18,23 @@ public class CameraController : MonoBehaviour
     /// </summary>
     /// <param name="index"></param>
     public void ChangeCamera(int index)
-    { 
+    {
         // Kommunikation mit dem Animator herstellen
         animator.SetInteger("cameraIndex", index);
     }
 
+    public void ActivateFreeCam(Toggle toggle)
+    {
+        if (toggle.isOn == true)
+        {
+            animator.SetInteger("cameraIndex", 3);
+        }
+
+        else
+        {
+            animator.SetInteger("cameraIndex", 0);
+        }
+
+
+    }
 }
