@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using UnityEngine.SceneManagment;
+using UnityEngine.SceneManagement;
 
-public class Credits : MonoBehaviour
+public class ScreenChanger : MonoBehaviour
 {
     public float textspeed = 1;
 
@@ -21,7 +21,22 @@ public class Credits : MonoBehaviour
     }
 
     public void OpenCredit()
+    {  //Quellen Screen
+       SceneManager.LoadScene(1);
+    }
+
+    public void BackToMenu()
     {
-       // SceneManager.LoadScene(1);
+        //zurück zum Menü
+ 
+        SceneManager.LoadScene(0);
+    }
+
+    public void Quit()
+
+    {
+        //Programm beenden
+        Application.Quit();
+
     }
 }

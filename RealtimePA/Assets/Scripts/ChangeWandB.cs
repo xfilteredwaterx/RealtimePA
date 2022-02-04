@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChanceWandB : MonoBehaviour
+public class ChangeWandB : MonoBehaviour
 {
     public Material[] innenwand;
-    public Material[] auﬂenwand;
+    public Material[] aussenwand;
     public MeshRenderer target;
     public Color[] colors;
 
     //Innenwand
-    public void SetObereWand(int i)
+    public void SetInnenwand(int i)
     {
         Material[] mats = target.materials;
         mats[1] = innenwand[i];
@@ -20,7 +20,7 @@ public class ChanceWandB : MonoBehaviour
     //F¸r alle Auﬂenw‰nde
     public void SetWand(int i)
     {
-        foreach (Material m in auﬂenwand)
+        foreach (Material m in aussenwand)
         {
             m.color = colors[i];
         }

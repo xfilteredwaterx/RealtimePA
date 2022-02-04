@@ -6,7 +6,7 @@ public class ChangeWand : MonoBehaviour
 {
 
     public Material[] tapete;
-    public Material[] auﬂenwand;
+    public Material[] aussenwand;
     public MeshRenderer target;
     public Color[] colors;
 
@@ -20,7 +20,7 @@ public class ChangeWand : MonoBehaviour
 
     public void SetWand(int i)
     {
-        foreach (Material m in auﬂenwand)
+        foreach (Material m in aussenwand)
         {
             m.color = colors[i];
         }

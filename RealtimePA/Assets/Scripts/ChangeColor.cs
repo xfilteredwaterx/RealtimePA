@@ -13,7 +13,7 @@ public class ChangeColor : MonoBehaviour
         this.target = target;
     }
 
-    public void SetColor(Material m)
+    public void SetMaterial(Material m)
     {
         target.material = m;
     }
