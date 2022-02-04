@@ -15,11 +15,11 @@ D:/Studium - VIS/GitHub/RealtimePA/RealtimePA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-12577
+19399
 Successfully changed project path to: D:/Studium - VIS/GitHub/RealtimePA/RealtimePA
 D:/Studium - VIS/GitHub/RealtimePA/RealtimePA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 62.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,77 +35,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003168 seconds.
+Registered in 0.003150 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 62.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.743 seconds
+- Completed reload, in  2.733 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2744ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (2733ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (491ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (212ms)
+			SetupLoadedEditorAssemblies (209ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
+				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003943 seconds.
+Registered in 0.004076 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.387 seconds
+- Completed reload, in  1.334 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1388ms)
-		BeginReloadAssembly (175ms)
+	ReloadAssembly (1335ms)
+		BeginReloadAssembly (160ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1137ms)
-			LoadAssemblies (113ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1104ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (338ms)
+			SetupTypeCache (332ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (465ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (447ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (270ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (260ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2935 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.3 MB.
-System memory in use after: 134.5 MB.
+Unloading 2936 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.4 MB.
+System memory in use after: 134.6 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3375.
-Total: 3.874100 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.080600 ms MarkObjects: 3.343000 ms  DeleteObjects: 0.098700 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3376.
+Total: 3.912400 ms (FindLiveObjects: 0.385100 ms CreateObjectMapping: 0.080000 ms MarkObjects: 3.350400 ms  DeleteObjects: 0.094700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,715 +134,113 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Realtime_Projekrarbeit_Quelle.unity
-  artifactKey: Guid(9b0037714dd05db4cba82397a9904713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Realtime_Projekrarbeit_Quelle.unity using Guid(9b0037714dd05db4cba82397a9904713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176a0428d61891bf9e955fa03d7cd297') in 0.021020 seconds 
-  Import took 0.025789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 599.698322 seconds.
-  path: Assets/Scenes/Realtime_Projekrarbeit.unity
-  artifactKey: Guid(0c01111f5788690409d12830735703a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Realtime_Projekrarbeit.unity using Guid(0c01111f5788690409d12830735703a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b7406a590be9ce77bd3bc04f1d8693') in 0.002752 seconds 
-  Import took 0.007535 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004196 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.197 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1198ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (995ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (321ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (378ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.3 MB.
-System memory in use after: 125.6 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3377.
-Total: 3.856900 ms (FindLiveObjects: 0.309500 ms CreateObjectMapping: 0.078700 ms MarkObjects: 3.441100 ms  DeleteObjects: 0.026300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003956 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.325 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1325ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1122ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (323ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (481ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (357ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.4 MB.
-System memory in use after: 125.6 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3379.
-Total: 3.535100 ms (FindLiveObjects: 0.302900 ms CreateObjectMapping: 0.070400 ms MarkObjects: 3.140200 ms  DeleteObjects: 0.020300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1526.241021 seconds.
-  path: Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_Rose-Wall-Plastic.mat
+  path: Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_wite-Wall-Plastic.mat
   artifactKey: Guid(12403d3f69a91f3469b4419419b63c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_Rose-Wall-Plastic.mat using Guid(12403d3f69a91f3469b4419419b63c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e73105555699fc876f2cfc45480788') in 0.290724 seconds 
-  Import took 0.295303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.213084 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Regal_innen_Ramen_Ambient_Occlusion.png
-  artifactKey: Guid(252f1e4f0431fc449a96c8816429a7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Regal_innen_Ramen_Ambient_Occlusion.png using Guid(252f1e4f0431fc449a96c8816429a7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b89bbe3c35873f83691e1b3c776b95a') in 0.032654 seconds 
-  Import took 0.037560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Sushi/Seaweed_Sushi_Ambient_Occlusion.png
-  artifactKey: Guid(7e465daa0958bd64e8a9971d6219c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Sushi/Seaweed_Sushi_Ambient_Occlusion.png using Guid(7e465daa0958bd64e8a9971d6219c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b23a82917b9d3a6406afdf1f051eee4') in 0.021511 seconds 
-  Import took 0.026663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Regal_Sushi_Ambient_Occlusion.png
-  artifactKey: Guid(76f3b16728b2d624d99dc819cfd18d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Regal_Sushi_Ambient_Occlusion.png using Guid(76f3b16728b2d624d99dc819cfd18d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e582bb0b6338139f37b88c005c95ea96') in 0.018872 seconds 
-  Import took 0.023458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Regal_Ramen_Ambient_Occlusion.png
-  artifactKey: Guid(67cbef11b3213d242b9dca732969c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Regal_Ramen_Ambient_Occlusion.png using Guid(67cbef11b3213d242b9dca732969c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3024bd7eda5a1619412c9a5792c874f7') in 0.016484 seconds 
-  Import took 0.022020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Sushi/Thunfisch_Ambient_Occlusion.png
-  artifactKey: Guid(e745e35418f1b4043ad42740ba4b271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Sushi/Thunfisch_Ambient_Occlusion.png using Guid(e745e35418f1b4043ad42740ba4b271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e23318ec88cc41f7955dcc56f440ab') in 0.018698 seconds 
-  Import took 0.024079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Tofu_Ambient_Occlusion.png
-  artifactKey: Guid(ce24548331db3ad4089d2c93f8fedd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Tofu_Ambient_Occlusion.png using Guid(ce24548331db3ad4089d2c93f8fedd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ee7794455428094a74ba8d9cf17190') in 0.017843 seconds 
-  Import took 0.022911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Theke_Ramen_Ambient_Occlusion.png
-  artifactKey: Guid(36619e4f26bfbcb41aaeafe292f79fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Theke_Ramen_Ambient_Occlusion.png using Guid(36619e4f26bfbcb41aaeafe292f79fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d09c7bc9f7adc7a141db96cb2c610c') in 0.016754 seconds 
-  Import took 0.021905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/Wood/WoodFloor040_1K_Color.jpg
-  artifactKey: Guid(b8d6d269dcf5a7d42a1b5047fe62afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/Wood/WoodFloor040_1K_Color.jpg using Guid(b8d6d269dcf5a7d42a1b5047fe62afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeda482eb78345a73fe683af2ed8184d') in 0.019082 seconds 
-  Import took 0.023383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/Wood/WoodFloor040_1K_Roughness.jpg
-  artifactKey: Guid(5b41f47a8489d5b4c8a1186f16451e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/Wood/WoodFloor040_1K_Roughness.jpg using Guid(5b41f47a8489d5b4c8a1186f16451e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdca5a71451dc22b2b003b7c1fd8f1d') in 0.017448 seconds 
-  Import took 0.022684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Regal_innen_Sushi_Ambient_Occlusion.png
-  artifactKey: Guid(d8643ee7f611eea4e8c0bd4f566118d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Regal_innen_Sushi_Ambient_Occlusion.png using Guid(d8643ee7f611eea4e8c0bd4f566118d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3fe071f698703b9e2c15ff4ab77f58') in 0.018250 seconds 
-  Import took 0.022933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Seaweed_Ramen_Ambient_Occlusion.png
-  artifactKey: Guid(b24e19c7bde8ab442acfd93181850470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Seaweed_Ramen_Ambient_Occlusion.png using Guid(b24e19c7bde8ab442acfd93181850470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62df59cf2d76128858e98d6d65b76290') in 0.017790 seconds 
-  Import took 0.022993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Sushi/Reis_Ambient_Occlusion.png
-  artifactKey: Guid(5922f467839f37646b9dd3cece942af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Sushi/Reis_Ambient_Occlusion.png using Guid(5922f467839f37646b9dd3cece942af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc13a7e0f0c6378d28086a4510c1fd7f') in 0.017744 seconds 
-  Import took 0.022592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Teller_Ambient_Occlusion.png
-  artifactKey: Guid(3304456000b7e87478c0637c7877cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Teller_Ambient_Occlusion.png using Guid(3304456000b7e87478c0637c7877cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11c9f7729eff0cee8dd915141238d96') in 0.016839 seconds 
-  Import took 0.021298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Schwein_Ambient_Occlusion.png
-  artifactKey: Guid(7ad0e1048fee0ce4fb0b3c3492ad14fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Schwein_Ambient_Occlusion.png using Guid(7ad0e1048fee0ce4fb0b3c3492ad14fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d2260ffea1d067c79600a86a27a21b') in 0.016935 seconds 
-  Import took 0.022083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Schüssel_Deko_Ambient_Occlusion.png
-  artifactKey: Guid(3a695513797625e4e86643be80dd116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Schüssel_Deko_Ambient_Occlusion.png using Guid(3a695513797625e4e86643be80dd116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6d87515af2477a223c490191c17275') in 0.018556 seconds 
-  Import took 0.023017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Innen/StühleAmbient_Occlusion.pngAmbient_Occlusion.png
-  artifactKey: Guid(744a6d4bfe8ac744b8e318c7ce6c627f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Innen/StühleAmbient_Occlusion.pngAmbient_Occlusion.png using Guid(744a6d4bfe8ac744b8e318c7ce6c627f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a42402bafc2b8ae0d8b7a2dfb24d12') in 0.018462 seconds 
-  Import took 0.023084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Regal_innen_Ramen_Ambient_Occlusion.png
-  artifactKey: Guid(252f1e4f0431fc449a96c8816429a7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Regal_innen_Ramen_Ambient_Occlusion.png using Guid(252f1e4f0431fc449a96c8816429a7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b89bbe3c35873f83691e1b3c776b95a') in 0.008289 seconds 
-  Import took 0.013242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Theke_Sushi_Ambient_Occlusion.png
-  artifactKey: Guid(8881a1cbaafb9924d87888ab9c9a7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Theke_Sushi_Ambient_Occlusion.png using Guid(8881a1cbaafb9924d87888ab9c9a7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ee222fb26f567360766b89df29cd77') in 0.016509 seconds 
-  Import took 0.021567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Textures/HDRI/studio_small_03_2k.hdr
-  artifactKey: Guid(199c769ac0cd3f74a9dd66f5f4992d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/HDRI/studio_small_03_2k.hdr using Guid(199c769ac0cd3f74a9dd66f5f4992d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbbd46b408d13f4a0efce96a915eee9') in 0.072856 seconds 
-  Import took 0.078006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/Wood/WoodFloor040_1K_NormalGL.jpg
-  artifactKey: Guid(1f8068ece4fe8eb4bbdeabf4f63a50e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/Wood/WoodFloor040_1K_NormalGL.jpg using Guid(1f8068ece4fe8eb4bbdeabf4f63a50e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9e3e4f8d79cb09acc667be89f70d69') in 0.016171 seconds 
-  Import took 0.021178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.017884 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Glasses_Deko_Ramen_Ambient_Occlusion.png
-  artifactKey: Guid(bd7f490656e01164c94dc28a4fd4559f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Glasses_Deko_Ramen_Ambient_Occlusion.png using Guid(bd7f490656e01164c94dc28a4fd4559f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8f65e1bf2112a7480b6fafa187fe5a') in 0.020258 seconds 
-  Import took 0.025179 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Sushi/Gurken_Sushi_Ambient_Occlusion.png
-  artifactKey: Guid(d24c0b036a744664e83e36cb69361847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Sushi/Gurken_Sushi_Ambient_Occlusion.png using Guid(d24c0b036a744664e83e36cb69361847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9a637b6a03c417eab7bf3bd648425e') in 0.016658 seconds 
-  Import took 0.021328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Huhn_Ambient_Occlusion.png
-  artifactKey: Guid(866de48705c1ff8429d28f06a628aa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Huhn_Ambient_Occlusion.png using Guid(866de48705c1ff8429d28f06a628aa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f74eff73789ef6b998b00ee0def6a1') in 0.019258 seconds 
-  Import took 0.024436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Glasses_Deko_Ramen_Ambient_Occlusion.png
-  artifactKey: Guid(bd7f490656e01164c94dc28a4fd4559f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Glasses_Deko_Ramen_Ambient_Occlusion.png using Guid(bd7f490656e01164c94dc28a4fd4559f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8f65e1bf2112a7480b6fafa187fe5a') in 0.014675 seconds 
-  Import took 0.018769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Miso_Ambient_Occlusion.png
-  artifactKey: Guid(bd390aacb47ac9b40b8b132dd6383429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Miso_Ambient_Occlusion.png using Guid(bd390aacb47ac9b40b8b132dd6383429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd998f657cd7dee191463529f37b9c96e') in 0.017213 seconds 
-  Import took 0.022097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Innen/Picture_01Ambient_Occlusion.pngAmbient_Occlusion.png
-  artifactKey: Guid(b86bd1f0c090ef1498c8da0eae7dcf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Innen/Picture_01Ambient_Occlusion.pngAmbient_Occlusion.png using Guid(b86bd1f0c090ef1498c8da0eae7dcf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a63dfb43c9818e8068ba97bb1b0a40a') in 0.018065 seconds 
-  Import took 0.022921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Innen/GlassesAmbient_Occlusion.pngAmbient_Occlusion.png
-  artifactKey: Guid(032e551d01386d14aa81e6bae6d8c32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Innen/GlassesAmbient_Occlusion.pngAmbient_Occlusion.png using Guid(032e551d01386d14aa81e6bae6d8c32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228ec7f025a82240e55cc398aa25256d') in 0.019870 seconds 
-  Import took 0.024750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/tapete/paper_0001_roughness_2k.jpg
-  artifactKey: Guid(67ba050bd637dfa41bac7aa8507d4ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/tapete/paper_0001_roughness_2k.jpg using Guid(67ba050bd637dfa41bac7aa8507d4ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab9e0f2daab3af7c9013f21897efd45') in 0.017667 seconds 
-  Import took 0.022892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Innen/Lampe_innenAmbient_Occlusion.pngAmbient_Occlusion.png
-  artifactKey: Guid(a4ab37619f9988c469bc04d4d63eef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Innen/Lampe_innenAmbient_Occlusion.pngAmbient_Occlusion.png using Guid(a4ab37619f9988c469bc04d4d63eef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14db999f7bd97121206274c9c66252c7') in 0.017407 seconds 
-  Import took 0.022218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Sushi/Lachs_Ambient_Occlusion.png
-  artifactKey: Guid(c335987b0c6d62040b178f48d8abb61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Sushi/Lachs_Ambient_Occlusion.png using Guid(c335987b0c6d62040b178f48d8abb61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c1cabe2d8be89f6d124291b0cb5759') in 0.016293 seconds 
-  Import took 0.020733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Gurken_Ramen_Ambient_Occlusion.png
-  artifactKey: Guid(20d37685a4fd33a45aad1370fbf0b505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Gurken_Ramen_Ambient_Occlusion.png using Guid(20d37685a4fd33a45aad1370fbf0b505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ea2fd5722ff413670fe07a36f70ba4') in 0.016481 seconds 
-  Import took 0.021134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Nudeln_Ambient_Occlusion.png
-  artifactKey: Guid(9036b58867ba9e04cba06021611e9e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Nudeln_Ambient_Occlusion.png using Guid(9036b58867ba9e04cba06021611e9e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532da213dccd0c9d8a9dce2852e29eb2') in 0.016405 seconds 
-  Import took 0.021309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/tapete/paper_0001_normal_2k.jpg
-  artifactKey: Guid(7d0a9ff98afbfb04abe1e0861e783642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/tapete/paper_0001_normal_2k.jpg using Guid(7d0a9ff98afbfb04abe1e0861e783642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b370d716480aabb78331882870a01f6') in 0.022332 seconds 
-  Import took 0.027118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Lauch_Ambient_Occlusion.png
-  artifactKey: Guid(28af65a5f7af02b438047828363b2ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Lauch_Ambient_Occlusion.png using Guid(28af65a5f7af02b438047828363b2ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a50716f59fea8eaadd233af3d2d0fb4') in 0.018055 seconds 
-  Import took 0.022426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Innen/Picture_02Ambient_Occlusion.pngAmbient_Occlusion.png
-  artifactKey: Guid(9dd201ac44b095842a449464fe9837dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Innen/Picture_02Ambient_Occlusion.pngAmbient_Occlusion.png using Guid(9dd201ac44b095842a449464fe9837dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d98d2b6db5e4e1137472ef224c52b3f') in 0.017642 seconds 
-  Import took 0.022160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Glasses_Sushi_Deko_Ambient_Occlusion.png
-  artifactKey: Guid(d1d897ca221644647b7db2c40e444f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Glasses_Sushi_Deko_Ambient_Occlusion.png using Guid(d1d897ca221644647b7db2c40e444f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620a5fca6aedc10b871e42fc8c9d49bb') in 0.017778 seconds 
-  Import took 0.023490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/freepik/pdpattern3-02b-gloy.jpg
-  artifactKey: Guid(f76a373ed4356154f8460397f617f246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/freepik/pdpattern3-02b-gloy.jpg using Guid(f76a373ed4356154f8460397f617f246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d41176cbafc117fe928162787e16f3') in 0.023572 seconds 
-  Import took 0.029542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/tapete/paper_0001_base_color_2k.jpg
-  artifactKey: Guid(e013274f17506b94bb32804d411040a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/tapete/paper_0001_base_color_2k.jpg using Guid(e013274f17506b94bb32804d411040a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3559b2488fbcfec9aec5cc2058887a55') in 0.017192 seconds 
-  Import took 0.023026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Innen/Picture_03Ambient_Occlusion.pngAmbient_Occlusion.png
-  artifactKey: Guid(28b113afc5b02d649b9743e15c14c3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Innen/Picture_03Ambient_Occlusion.pngAmbient_Occlusion.png using Guid(28b113afc5b02d649b9743e15c14c3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cc66ecf18438b61f986591c56816c9') in 0.016774 seconds 
-  Import took 0.021372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.409954 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Bottles_Deko_Ramen_Ambient_Occlusion.png
-  artifactKey: Guid(ecc925540264a1b4e8d1d482296871d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Bottles_Deko_Ramen_Ambient_Occlusion.png using Guid(ecc925540264a1b4e8d1d482296871d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99edc4dbfdab8fe28be427236a220ba5') in 0.017617 seconds 
-  Import took 0.022547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Bottles_Sushi_Deko_Ambient_Occlusion.png
-  artifactKey: Guid(8b06722866305cf43a21ea1b91122093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Bottles_Sushi_Deko_Ambient_Occlusion.png using Guid(8b06722866305cf43a21ea1b91122093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c165c6b0198e780677fcbcbb72510f45') in 0.017955 seconds 
-  Import took 0.022583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Chopsticks_Deko_Ambient_Occlusion.png
-  artifactKey: Guid(2d75fc63c89b432428ed971f609f79fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Ramen/Chopsticks_Deko_Ambient_Occlusion.png using Guid(2d75fc63c89b432428ed971f609f79fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87fa2f540398c9eeba0c002d549ada8') in 0.021695 seconds 
-  Import took 0.025978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Innen/BottlesAmbient_Occlusion.pngAmbient_Occlusion.png
-  artifactKey: Guid(568c41f5e2fe1094f9985d550b407c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Innen/BottlesAmbient_Occlusion.pngAmbient_Occlusion.png using Guid(568c41f5e2fe1094f9985d550b407c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226648de1cae0fcc344630962688876d') in 0.018012 seconds 
-  Import took 0.022690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Innen/CushionAmbient_Occlusion.pngAmbient_Occlusion.png
-  artifactKey: Guid(7b157f14ef0a02742a69af255866e461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Innen/CushionAmbient_Occlusion.pngAmbient_Occlusion.png using Guid(7b157f14ef0a02742a69af255866e461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f989e1d43f07434baa194b0d85eb88') in 0.019015 seconds 
-  Import took 0.024597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Fleisch_01_Ambient_Occlusion.png
-  artifactKey: Guid(7f22e8276e9ebf040950e297d3b5256c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Fleisch_01_Ambient_Occlusion.png using Guid(7f22e8276e9ebf040950e297d3b5256c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ac7fd65689285c6e4e48874c75fd96') in 0.017195 seconds 
-  Import took 0.022008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Chopstick_Ramen_Deko_Ambient_Occlusion.png
-  artifactKey: Guid(0ac45d1c88306f345a95fb7f9e55846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Deko_Sushi/Chopstick_Ramen_Deko_Ambient_Occlusion.png using Guid(0ac45d1c88306f345a95fb7f9e55846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae1af8f0060f12231fa224c6453005d') in 0.017017 seconds 
-  Import took 0.022062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Fish_Cake_Ambient_Occlusion.png
-  artifactKey: Guid(70103575b590342469d9ddf8594d0d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Fish_Cake_Ambient_Occlusion.png using Guid(70103575b590342469d9ddf8594d0d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09134041f4f202f37bc6f435de72724b') in 0.018674 seconds 
-  Import took 0.023449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffaccb439b2691f1518a7de31ad437a4') in 0.018704 seconds 
-  Import took 0.023556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Ei_Ramen_Ambient_Occlusion.png
-  artifactKey: Guid(a8239107923ba3645aab73f524884868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Ei_Ramen_Ambient_Occlusion.png using Guid(a8239107923ba3645aab73f524884868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd618ffbc2a175f7d7d1f9c126394d043') in 0.016464 seconds 
-  Import took 0.021406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Innen/ChopsticksAmbient_Occlusion.pngAmbient_Occlusion.png
-  artifactKey: Guid(f51ac8508aaf98140b51af97db010b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Innen/ChopsticksAmbient_Occlusion.pngAmbient_Occlusion.png using Guid(f51ac8508aaf98140b51af97db010b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9077dd8167148d3b0d5bf5bda63bb139') in 0.016685 seconds 
-  Import took 0.020988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Sushi/Ei_Sushi_Ambient_Occlusion.png
-  artifactKey: Guid(af3da5711bdfc4e47a182e85877cfbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Sushi/Ei_Sushi_Ambient_Occlusion.png using Guid(af3da5711bdfc4e47a182e85877cfbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed55c1773ef91af9adf69b210016b99') in 0.017235 seconds 
-  Import took 0.021385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Eigelb_Ambient_Occlusion.png
-  artifactKey: Guid(732b61b98fec125449e69af12587c1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Eigelb_Ambient_Occlusion.png using Guid(732b61b98fec125449e69af12587c1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd09b3ce874dd2682313bc9f1944a34b') in 0.016330 seconds 
-  Import took 0.021000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Fleisch_02_Ambient_Occlusion.png
-  artifactKey: Guid(742e1f53dacff4f449a7217ab1556285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Food/Ramen/Fleisch_02_Ambient_Occlusion.png using Guid(742e1f53dacff4f449a7217ab1556285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1e3e14d8b7d1d553ea428be9f8dfb0') in 0.016195 seconds 
-  Import took 0.020252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/AO/Innen/Chopstick_HolderAmbient_Occlusion.pngAmbient_Occlusion.png
-  artifactKey: Guid(1939815c1f2003842906322869323971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/AO/Innen/Chopstick_HolderAmbient_Occlusion.pngAmbient_Occlusion.png using Guid(1939815c1f2003842906322869323971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e606780f4440758ea9a90a9ddfcf00') in 0.017726 seconds 
-  Import took 0.022382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.931851 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/freepik/10538.jpg
-  artifactKey: Guid(76783b9305b7f7d4ab40e861e8a2a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/freepik/10538.jpg using Guid(76783b9305b7f7d4ab40e861e8a2a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c380bb93f1ad7e9fd8cd16b13f59dc69') in 0.017809 seconds 
-  Import took 0.022586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/freepik/6091792.jpg
-  artifactKey: Guid(e3b8904210c1e854db3841c5cbf9cdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/freepik/6091792.jpg using Guid(e3b8904210c1e854db3841c5cbf9cdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c857cf925dcf16120e0a03e6ff9f1db') in 0.018769 seconds 
-  Import took 0.023827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/freepik/4959539.jpg
-  artifactKey: Guid(b738955a5e2057343bb290420a29fa49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/freepik/4959539.jpg using Guid(b738955a5e2057343bb290420a29fa49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320f6aa63384120b7f45a41312cb2ba5') in 0.020986 seconds 
-  Import took 0.025717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Textures/Sushi_Ramen_Modell/freepik/10538.jpg
-  artifactKey: Guid(76783b9305b7f7d4ab40e861e8a2a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sushi_Ramen_Modell/freepik/10538.jpg using Guid(76783b9305b7f7d4ab40e861e8a2a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c380bb93f1ad7e9fd8cd16b13f59dc69') in 0.011882 seconds 
-  Import took 0.016412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 217.922697 seconds.
-  path: Assets/Materials/Donut_Cake_Modell/ARC/Rahmen/B_Antrazit-Rahmen-Plastic.mat
-  artifactKey: Guid(f0f5c4792e2c1384f9058d3b06ec3749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Donut_Cake_Modell/ARC/Rahmen/B_Antrazit-Rahmen-Plastic.mat using Guid(f0f5c4792e2c1384f9058d3b06ec3749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad74468647d11bbde9a362337a4c2153') in 0.028340 seconds 
-  Import took 0.033274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Materials/Donut_Cake_Modell/ARC/Rahmen/B_White-Rahmen-Plastic.mat
-  artifactKey: Guid(01c395e4ea8adff49bccfd4e5645c03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Donut_Cake_Modell/ARC/Rahmen/B_White-Rahmen-Plastic.mat using Guid(01c395e4ea8adff49bccfd4e5645c03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9aa0f2d46b716d216631e189615da4') in 0.020252 seconds 
-  Import took 0.024903 seconds .
+Start importing Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_wite-Wall-Plastic.mat using Guid(12403d3f69a91f3469b4419419b63c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20aa365bf1e62e2cfa0a01f9a0b9d067') in 0.271712 seconds 
+  Import took 0.276943 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004025 seconds.
+Registered in 0.003943 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.251 seconds
+- Completed reload, in  1.278 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1252ms)
-		BeginReloadAssembly (144ms)
+	ReloadAssembly (1279ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1051ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.9 MB.
+System memory in use after: 131.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3456.
+Total: 4.122300 ms (FindLiveObjects: 0.350800 ms CreateObjectMapping: 0.086000 ms MarkObjects: 3.659500 ms  DeleteObjects: 0.024100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 111.365899 seconds.
+  path: Assets/Materials/Donut_Cake_Modell/ARC/Wall/Innen
+  artifactKey: Guid(5f1136952d61f0c4185564b519440cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Donut_Cake_Modell/ARC/Wall/Innen using Guid(5f1136952d61f0c4185564b519440cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde587660cb307a287ac8fcfd08ebb3a') in 0.010784 seconds 
+  Import took 0.015750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.133134 seconds.
+  path: Assets/Materials/Donut_Cake_Modell/ARC/Wall/Innen/B_wite-Wall-Plastic 1.mat
+  artifactKey: Guid(0f08192a1676cf64dac265f646d1a3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Donut_Cake_Modell/ARC/Wall/Innen/B_wite-Wall-Plastic 1.mat using Guid(0f08192a1676cf64dac265f646d1a3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe5a7ef1b6bb2238007e73720a056eb') in 0.186792 seconds 
+  Import took 0.191858 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004098 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1241ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1034ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1048ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
+			SetupTypeCache (325ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (381ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (257ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.9 MB.
-System memory in use after: 131.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3466.
-Total: 3.814400 ms (FindLiveObjects: 0.330000 ms CreateObjectMapping: 0.070500 ms MarkObjects: 3.393300 ms  DeleteObjects: 0.018900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1144.887573 seconds.
-  path: Assets/Scripts/FreeCameraButton.cs
-  artifactKey: Guid(92a6672c2c26354439b01e4d841eaa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FreeCameraButton.cs using Guid(92a6672c2c26354439b01e4d841eaa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b578b195b9e1880306a8587adb28e652') in 0.017240 seconds 
-  Import took 0.022882 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003953 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.252 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1252ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1038ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (381ms)
+			SetupLoadedEditorAssemblies (380ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (103ms)
 				ProcessInitializeOnLoadAttributes (255ms)
@@ -850,16 +248,16 @@ Domain Reload Profiling:
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
+System memory in use before: 131.1 MB.
+System memory in use after: 131.3 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3469.
-Total: 3.523700 ms (FindLiveObjects: 0.310300 ms CreateObjectMapping: 0.071300 ms MarkObjects: 3.119800 ms  DeleteObjects: 0.021400 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3494.
+Total: 3.765000 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.078600 ms MarkObjects: 3.296300 ms  DeleteObjects: 0.021700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -873,172 +271,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2676.154522 seconds.
-  path: Assets/Scripts/CameraController.cs
-  artifactKey: Guid(73f95c7ac483ce543b42861215dde39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraController.cs using Guid(73f95c7ac483ce543b42861215dde39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8282e1e353749a8bb4270cce44c66d53') in 0.011615 seconds 
-  Import took 0.017258 seconds .
+  Time since last request: 273.657576 seconds.
+  path: Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_wite-Wall-Plastic.mat
+  artifactKey: Guid(12403d3f69a91f3469b4419419b63c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_wite-Wall-Plastic.mat using Guid(12403d3f69a91f3469b4419419b63c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77717511a290971e87af931249794aab') in 0.195540 seconds 
+  Import took 0.200508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_Grey-Wall-Plastic 2.mat
+  artifactKey: Guid(b1b920b7e644e2142bc4706751191254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_Grey-Wall-Plastic 2.mat using Guid(b1b920b7e644e2142bc4706751191254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11070da127016cf8f986ee7942c9fe93') in 0.016994 seconds 
+  Import took 0.021164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_Rose-Wall-Plastic 2.mat
+  artifactKey: Guid(c82e0486472685044bb42aaf00eefecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_Rose-Wall-Plastic 2.mat using Guid(c82e0486472685044bb42aaf00eefecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef18d17f88ec650d53e143094b8529e') in 0.018027 seconds 
+  Import took 0.022478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_Mint-Wall-Plastic 3.mat
+  artifactKey: Guid(76cbaf5732ac58c4fbb8db4e14966415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_Mint-Wall-Plastic 3.mat using Guid(76cbaf5732ac58c4fbb8db4e14966415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589fa10f630915190338f1365bb5fd56') in 0.014605 seconds 
+  Import took 0.019112 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004100 seconds.
+Registered in 0.004176 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.271 seconds
+- Completed reload, in  1.240 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1271ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1241ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1053ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (331ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (389ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3471.
-Total: 3.941100 ms (FindLiveObjects: 0.308000 ms CreateObjectMapping: 0.072100 ms MarkObjects: 3.453900 ms  DeleteObjects: 0.105700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003983 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.317 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1317ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1101ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (342ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (412ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (276ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3473.
-Total: 4.077100 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.076400 ms MarkObjects: 3.648500 ms  DeleteObjects: 0.025300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003937 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.229 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1230ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
+			CreateAndSetChildDomain (42ms)
 		EndReloadAssembly (1033ms)
-			LoadAssemblies (110ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (320ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (381ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (376ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadAttributes (253ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3475.
-Total: 3.733600 ms (FindLiveObjects: 0.306900 ms CreateObjectMapping: 0.072100 ms MarkObjects: 3.328600 ms  DeleteObjects: 0.024700 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3532.
+Total: 3.936400 ms (FindLiveObjects: 0.306100 ms CreateObjectMapping: 0.074800 ms MarkObjects: 3.535200 ms  DeleteObjects: 0.018600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1052,124 +360,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1064.186109 seconds.
-  path: Assets/Scripts/CameraController.cs
-  artifactKey: Guid(73f95c7ac483ce543b42861215dde39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraController.cs using Guid(73f95c7ac483ce543b42861215dde39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27204d4ba6c4c124bda86c14a0d5a6f') in 0.008566 seconds 
-  Import took 0.013891 seconds .
+  Time since last request: 66.263037 seconds.
+  path: Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_wite-Wall-Plastic.mat
+  artifactKey: Guid(12403d3f69a91f3469b4419419b63c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Donut_Cake_Modell/ARC/Wall/B_wite-Wall-Plastic.mat using Guid(12403d3f69a91f3469b4419419b63c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9191c9822b3c8cedb5952ee4f0d13664') in 0.186226 seconds 
+  Import took 0.190813 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003996 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.269 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1269ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1051ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (385ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3477.
-Total: 3.818100 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.072800 ms MarkObjects: 3.307500 ms  DeleteObjects: 0.121400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004006 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.282 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1283ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1082ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (407ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (277ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3479.
-Total: 4.249400 ms (FindLiveObjects: 0.325400 ms CreateObjectMapping: 0.076700 ms MarkObjects: 3.811800 ms  DeleteObjects: 0.033500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

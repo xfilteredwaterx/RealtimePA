@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Realtime_Projekrarbeit.unity
+    path: Assets/Scenes/Realtime_Projektarbeit.unity
     guid: 0c01111f5788690409d12830735703a5
   - enabled: 1
-    path: Assets/Scenes/Realtime_Projekrarbeit_Quelle.unity
+    path: Assets/Scenes/Realtime_Projektarbeit_Quelle.unity
     guid: 9b0037714dd05db4cba82397a9904713
   m_configObjects: {}
