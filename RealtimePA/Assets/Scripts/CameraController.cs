@@ -6,6 +6,9 @@ using UnityEngine.UI;
 /// </summary>
 public class CameraController : MonoBehaviour
 {
+
+    public int lastCam;
+    public Toggle freeCamToggle;
     /// <summary>
     /// Referenz zum Animator, welche die Kamerasteuerung übernimmt
     /// </summary>
@@ -21,20 +24,20 @@ public class CameraController : MonoBehaviour
     {
         // Kommunikation mit dem Animator herstellen
         animator.SetInteger("cameraIndex", index);
+        freeCamToggle.isOn = false;
     }
 
     public void ActivateFreeCam(Toggle toggle)
     {
         if (toggle.isOn == true)
         {
+            lastCam = animator.GetInteger("cameraIndex");
             animator.SetInteger("cameraIndex", 3);
         }
 
         else
         {
-            animator.SetInteger("cameraIndex", 0);
+            animator.SetInteger("cameraIndex", lastCam);   
         }
-
-
     }
 }
