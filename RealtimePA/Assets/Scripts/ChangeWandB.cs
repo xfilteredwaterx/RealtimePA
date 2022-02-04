@@ -20,9 +20,8 @@ public class ChangeWandB : MonoBehaviour
     //Für alle Außenwände
     public void SetWand(int i)
     {
-        foreach (Material m in aussenwand)
-        {
-            m.color = colors[i];
-        }
+        Material[] mats = target.materials;
+        mats[0].color = colors[i];
+        target.materials = mats;
     }
 }
