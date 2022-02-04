@@ -124,7 +124,7 @@ Material:
     - _Mode: 0
     - _NormalStrength: 1
     - _OcclusionStrength: 1
-    - _Occlusion_Strength: 1
+    - _Occlusion_Strength: 0.5
     - _Parallax: 0.02
     - _QueueOffset: 0
     - _ReceiveShadows: 1
