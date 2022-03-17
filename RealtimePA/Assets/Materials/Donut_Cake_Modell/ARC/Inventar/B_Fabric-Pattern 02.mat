@@ -140,7 +140,7 @@ Material:
     - _BaseColor: {r: 0.9245283, g: 0.75357777, b: 0.87360686, a: 1}
     - _Color: {r: 0.08913, g: 0.09, b: 0.0891, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Offset: {r: 1, g: 1, b: 0, a: 0}
+    - _Offset: {r: 0.67, g: -1.06, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tiling: {r: 3, g: 3, b: 0, a: 0}
+    - _Tiling: {r: 6, g: 6, b: 0, a: 0}
   m_BuildTextureStacks: []
